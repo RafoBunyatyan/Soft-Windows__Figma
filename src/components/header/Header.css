@@ -1,1 +1,50 @@
+.navbar {
+  max-width: 1920px !important;
+  width: 100% !important;
+  background-color: #363636 !important;
+}
 
+.Telbutton {
+  border: 1px solid #21b34a !important;
+  width: 100% !important;
+  max-width: 200px !important;
+  color: #21b24a !important;
+  background-color: #363636 !important;
+}
+
+.button {
+  width: 100% !important;
+  max-width: 200px !important;
+  background-color: #21b24a !important;
+}
+
+.div {
+  width: 100% !important;
+  max-width: 686px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.img {
+  background-image: url("../../assets/images/shukaturka-min 1.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  max-width: 1920px !important;
+  margin: 0 auto !important;
+  margin-top: -50px !important;
+}
+
+.span {
+  color: #21b24a !important;
+  font-weight: 700 !important;
+}
+
+.eee {
+  display: flex !important;
+}
+
+.icon {
+  height: 15px !important;
+  width: 15px !important;
+}

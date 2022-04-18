@@ -1,10 +1,13 @@
-import Header from "./components/header/header";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import Header from "./components/Header/Header";
 
 function App() {
-	// https://www.figma.com/file
-	return (// https://cssgridgarden.com/#ru
+
+	return (
 		<>
+			<NavBar />
 			<Header />
 		</>
 	);
