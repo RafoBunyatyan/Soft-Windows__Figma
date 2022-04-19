@@ -5,45 +5,37 @@ import Logo_1 from "../../assets/images/ЛОГО 1.png";
 import Vector from "../../assets/images/Vector.png";
 
 function NavBar() {
-
-
 	return (
 		<>
-			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="navbar">
+			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 				<Container>
-					<Navbar.Brand href="#home"><img src={Logo_1} /></Navbar.Brand>
-					<Navbar.Brand href="#home">Стоимость</Navbar.Brand>
+					<Navbar.Brand href="#Logo">
+						<img src={Logo_1} />
+					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
-						<Nav className="me-auto">
-							<Nav.Link href="#features">Наши работы</Nav.Link>
-							<Nav.Link href="#pricing">Услуги</Nav.Link>
-							<NavDropdown title="Мягкие окна" id="collasible-nav-dropdown">
-								<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-								<NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-								<NavDropdown.Divider />
-								<NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-							</NavDropdown>
-						</Nav>
 						<Nav>
-							<Nav.Link href="#deets">О компании</Nav.Link>
-							<Nav.Link eventKey={2} href="#memes">
-								Контакты
-							</Nav.Link>
-							<Button className="Telbutton">
-								<div>
-									<img src={Vector} />+7 (499) 277 23 26
-								</div>
-							</Button>
+							<NavDropdown title="Мягкие окна" id="collasible-nav-dropdown">
+								<NavDropdown.Item href="#action/3.1">Для беседок</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.2">Для террас</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.3">Для веранд</NavDropdown.Item>
+								<NavDropdown.Item href="#action/3.4">Для кафе</NavDropdown.Item>
+							</NavDropdown>
+							<Nav.Link href="#Услуги">Услуги</Nav.Link>
+							<Nav.Link href="#Наши работы">Наши работы</Nav.Link>
+							<Nav.Link href="#Стоимость">Стоимость</Nav.Link>
+							<Nav.Link href="#О компании">О компании</Nav.Link>
+							<Nav.Link href="#Контакты">Контакты</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
+					<Button>
+						<img className="vector" src={Vector} />
+						<span>+7 (499) 277 23 26</span>
+					</Button>
 				</Container>
 			</Navbar>
-
 		</>
 	)
 }
 
 export default NavBar;
-

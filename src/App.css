@@ -7,3 +7,9 @@
 body {
   font-family: "Gilroy" !important;
 }
+
+.Conteyner {
+  width: 100% !important;
+  max-width: 1920px !important;
+  margin: 0 auto !important;
+}

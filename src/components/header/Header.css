@@ -1,50 +1,55 @@
-.navbar {
-  max-width: 1920px !important;
-  width: 100% !important;
-  background-color: #363636 !important;
+.header {
+  color: #3d3d3d !important;
 }
 
-.Telbutton {
-  border: 1px solid #21b34a !important;
-  width: 100% !important;
-  max-width: 200px !important;
-  color: #21b24a !important;
-  background-color: #363636 !important;
+.SHukaturka {
+  /* margin-top: -50px !important; */
 }
 
-.button {
+.header_text {
   width: 100% !important;
-  max-width: 200px !important;
-  background-color: #21b24a !important;
-}
-
-.div {
-  width: 100% !important;
-  max-width: 686px !important;
+  max-width: 750px !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
 }
 
-.img {
-  background-image: url("../../assets/images/shukaturka-min 1.png") !important;
-  background-repeat: no-repeat !important;
-  background-size: 100% !important;
-  max-width: 1920px !important;
-  margin: 0 auto !important;
-  margin-top: -50px !important;
+.headet_text_title {
+  font-size: 60px !important;
+  line-height: 75px !important;
+  width: 750px !important;
 }
 
-.span {
+.spanColor {
   color: #21b24a !important;
   font-weight: 700 !important;
 }
 
-.eee {
+.header_Icon {
   display: flex !important;
+  width: 100% !important;
+  max-width: 445px !important;
+  flex-direction: column !important;
 }
 
-.icon {
+.header_Icon_Block {
+  font-size: 18px !important;
+  line-height: 26px !important;
+}
+
+.header_Icon_Check {
   height: 15px !important;
   width: 15px !important;
+}
+
+.header_Icon_span {
+  margin-left: 0.5rem !important;
+}
+
+.header_Calculate {
+  width: 100% !important;
+  max-width: 250px !important;
+  background-color: #21b24a !important;
+  color: #fff !important;
+  padding: 20px 24px !important;
 }
