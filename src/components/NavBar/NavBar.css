@@ -1,3 +1,8 @@
+.navbar {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
 .navbar-nav {
   width: 100% !important;
   max-width: 822px !important;
@@ -34,6 +39,7 @@
 
 .nav-link {
   color: #fff !important;
+  font-size: 18px !important;
 }
 
 .nav-link:focus {
@@ -48,4 +54,10 @@
 
 .vector {
   padding-right: 0.5rem !important;
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    width: 160px !important;
+  }
 }
