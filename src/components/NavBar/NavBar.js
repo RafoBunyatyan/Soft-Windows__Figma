@@ -2,7 +2,8 @@ import React from 'react';
 import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
 import "./NavBar.css";
 import Logo_1 from "../../assets/images/ЛОГО 1.png";
-import Vector from "../../assets/images/Vector.png";
+import Icon, { Stack } from '@mdi/react';
+import { mdiPhone } from '@mdi/js';
 
 function NavBar() {
 	return (
@@ -29,7 +30,7 @@ function NavBar() {
 						</Nav>
 					</Navbar.Collapse>
 					<Button>
-						<img className="vector" src={Vector} />
+						<Icon className="vector" path={mdiPhone} />
 						<span>+7 (499) 277 23 26</span>
 					</Button>
 				</Container>

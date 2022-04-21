@@ -1,10 +1,9 @@
-import React from "react"
-import "./Header.css"
-import SHukaturka from "../../assets/images/shukaturka-min 1.png"
+import React from "react";
+import "./Header.css";
+import SHukaturka from "../../assets/images/shukaturka-min 1.png";
 import { Button, } from "react-bootstrap"
 import Icon, { Stack } from '@mdi/react';
 import { mdiCheck } from '@mdi/js';
-
 
 function Header() {
 	return (
@@ -27,7 +26,7 @@ function Header() {
 				</div>
 			</div>
 		</>
-	)
-}
+	);
+};
 
-export default Header
+export default Header;

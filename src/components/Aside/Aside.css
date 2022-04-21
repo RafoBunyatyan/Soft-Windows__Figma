@@ -1,0 +1,90 @@
+.aside {
+  margin-top: 3.6rem !important;
+}
+
+.aside_title {
+  margin-bottom: 3rem !important;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.aside_title_big {
+  font-size: 42px !important;
+  width: 100% !important;
+  font-weight: 700 !important;
+  max-width: 391px !important;
+  color: #463b3b !important;
+}
+
+.aside_title_text {
+  font-size: 18px !important;
+  color: #5b5b5b !important;
+  width: 100% !important;
+  max-width: 834px !important;
+}
+
+.aside_information {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside_information_grup {
+  width: 100% !important;
+  max-width: 420px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.informationGrup_title {
+  font-size: 25px !important;
+  color: #151515 !important;
+}
+
+.informationGrup_hr {
+  border: 2px solid #21b24a !important;
+  width: 100% !important;
+  max-width: 250px !important;
+  margin: 0.8rem 0 !important;
+}
+
+.informationGrup_suma {
+  font-size: 30px !important;
+  color: #151515 !important;
+}
+
+.informationGrup_item {
+  color: #5b5b5b !important;
+  width: 100% !important;
+  max-width: 298px !important;
+}
+
+.item_Icon {
+  height: 18px !important;
+}
+
+.item_text {
+  font-size: 18px !important;
+  color: #5b5b5b !important;
+  margin-left: 0.5rem !important;
+}
+
+.btn {
+  width: 100%;
+  max-width: 340px;
+}
+.btn:hover {
+  background-color: #21b24a !important;
+  color: #f9f9f9 !important;
+}
+
+@media (max-width: 1200px) {
+}

@@ -20,6 +20,8 @@
   align-items: center !important;
   justify-content: center !important;
   padding: 14px 24px !important;
+  width: 100% !important;
+  max-width: 204px !important;
 }
 
 .dropdown-menu {
@@ -42,7 +44,7 @@
   font-size: 18px !important;
 }
 
-.nav-link:focus {
+.nav-link:hover {
   background-color: #21b24a !important;
   width: 100% !important;
   display: flex !important;
@@ -54,10 +56,29 @@
 
 .vector {
   padding-right: 0.5rem !important;
+  height: 18px !important;
 }
 
 @media (max-width: 991px) {
   .dropdown-menu {
     width: 160px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 12px 8px !important;
+    margin-left: 0.3rem !important;
+    max-width: 170px !important;
+  }
+
+  .vector {
+    padding-right: 0.2rem !important;
+  }
+
+  .navbar-brand {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-right: 0rem !important;
   }
 }
