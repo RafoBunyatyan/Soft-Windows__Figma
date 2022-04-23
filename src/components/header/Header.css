@@ -1,126 +1,41 @@
-.header {
-  color: #3d3d3d !important;
-  position: relative !important;
-  margin-bottom: 2.5rem !important;
-}
-
-.header_img {
-  margin-top: -50px !important;
-  width: 100% !important;
-  max-width: 1920px !important;
-}
-
-.header_about {
-  position: absolute !important;
-  top: 53% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-}
-
-.headet_text_title {
-  font-size: 60px !important;
-  width: 750px !important;
-  font-weight: 700 !important;
-}
-
-.headet_text_span {
-  color: #21b24a !important;
-}
-
-.header_about_Block {
-  font-size: 18px !important;
-  display: flex !important;
-}
-
-.about_icon {
-  padding: 0.4rem 0rem !important;
-}
-
-.header_Icon_Check {
-  height: 16px !important;
-  margin-top: 0.4rem !important;
-}
-
-.header_Icon_span {
-  padding-left: 0.5rem !important;
-}
-
-.header_about_Calculate {
-  width: 100% !important;
-  max-width: 250px !important;
-  background-color: #21b24a !important;
-  color: #fff !important;
-  padding: 22px 45px !important;
-  margin-top: 2.5rem !important;
-}
-
-.header_about_Calculate:hover {
+.header_CalculateButton:hover {
   background-color: #ffffff !important;
   color: #21b24a !important;
 }
 
 @media (max-width: 1200px) {
-  .headet_text_title {
-    font-size: 48px !important;
+  .header {
     width: 550px !important;
   }
-
-  .header_about_Calculate {
-    margin-top: 1.5rem !important;
-    padding: 16px 40px !important;
+  .header_title {
+    font-size: 48px !important;
   }
 }
 
 @media (max-width: 1000px) {
-  .headet_text_title {
-    font-size: 38px !important;
-    width: 320px !important;
-    margin: 0 auto !important;
+  .header {
+    width: 350px !important;
+  }
+  .header_title {
+    font-size: 37px !important;
     line-height: 1 !important;
   }
-
-  .header_about_Calculate {
-    margin-top: 0.5rem !important;
-  }
-
-  .header_about_Block {
+  .header_about {
     font-size: 16px !important;
   }
-}
-
-@media (max-width: 850px) {
-  .header_img {
-    opacity: 0.7 !important;
-  }
-
-  .about_icon {
-    padding: 0.25rem 0rem !important;
-    line-height: 1.4 !important;
+  .header_CalculateButton {
+    margin-top: 0.5rem !important;
+    padding: 16px 40px !important;
+    max-width: 285px !important;
   }
 }
 
 @media (max-width: 700px) {
   .header_img {
-    height: 340px !important;
+    height: 380px !important;
+    opacity: 0.7 !important;
   }
-
-  .header_about_Calculate {
-    max-width: 285px !important;
-  }
-
-  .headet_text_title {
-    max-width: 290px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  .header_img {
-    height: 370px !important;
-  }
-}
-
-@media (max-width: 320px) {
-  .r_block__blue {
-    display: none;
+  .header {
+    max-width: 313px !important;
   }
 }
