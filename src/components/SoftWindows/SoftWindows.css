@@ -1,29 +1,29 @@
-.header_CalculateButton:hover {
+.header_button:hover {
   background-color: #ffffff !important;
   color: #21b24a !important;
 }
 
 @media (max-width: 1200px) {
-  .header {
-    width: 550px !important;
-  }
   .header_title {
     font-size: 48px !important;
+  }
+  .header {
+    width: 550px !important;
   }
 }
 
 @media (max-width: 1000px) {
-  .header {
-    width: 350px !important;
-  }
   .header_title {
     font-size: 37px !important;
     line-height: 1 !important;
   }
+  .header {
+    width: 350px !important;
+  }
   .header_about {
     font-size: 16px !important;
   }
-  .header_CalculateButton {
+  .header_button {
     margin-top: 0.5rem !important;
     padding: 16px 40px !important;
     max-width: 285px !important;
@@ -32,10 +32,16 @@
 
 @media (max-width: 700px) {
   .header_img {
-    height: 380px !important;
+    height: 385px !important;
     opacity: 0.7 !important;
+    margin-top: -25px !important;
   }
   .header {
     max-width: 313px !important;
+  }
+  .header_button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex !important;
   }
 }

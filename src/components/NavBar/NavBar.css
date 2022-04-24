@@ -1,11 +1,10 @@
+:root {
+  --bs-dark-rgb: 54, 54, 54 !important;
+}
+
 .dropdown-menu {
   box-shadow: 0px 14.0436px 28.0873px rgb(154 170 207 / 15%) !important;
   width: 300px !important;
-}
-
-.dropdown-item:hover {
-  color: #21b24a !important;
-  background-color: #fff !important;
 }
 
 .nav-link {
@@ -19,6 +18,11 @@
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  color: #21b24a !important;
 }
 
 .myButton:hover {

@@ -1,0 +1,27 @@
+.myContainer_button:hover {
+  background-color: #21b24a !important;
+  color: #f9f9f9 !important;
+}
+
+@media (max-width: 1200px) {
+  .myContainer {
+    margin-top: 4rem !important;
+  }
+  .myContainer_header {
+    padding: 0rem 0.5rem !important;
+  }
+  .myContainer_title {
+    font-size: 31px !important;
+  }
+  .myContainer_text {
+    font-size: 1rem !important;
+  }
+  .myContainer_title_sub {
+    font-size: 23px !important;
+  }
+  .myContainer_button {
+    margin-top: 25px !important;
+    max-width: 290px !important;
+    padding: 17px 10px !important;
+  }
+}
