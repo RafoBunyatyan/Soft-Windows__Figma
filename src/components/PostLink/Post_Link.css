@@ -1,0 +1,12 @@
+.aside_numberButton:hover {
+  background-color: #21b24a !important;
+  color: #f9f9f9 !important;
+}
+
+.aside_PostButton:hover {
+  background-color: #fff !important;
+  color: #21b24a !important;
+}
+
+@media (max-width: 1200px) {
+}

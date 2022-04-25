@@ -1,14 +1,14 @@
 import React from "react";
 import { Button, Col, Container, Image } from "react-bootstrap";
-import "./SoftWindows.css";
+import "./Soft_Windows.css";
 import SHukaturka from "../../assets/images/shukaturka-min 1.png";
 import Icon, { Stack } from '@mdi/react';
 import { mdiCheck } from '@mdi/js';
 
-function SoftWindows() {
+function Soft_Windows() {
 	return (
 		<>
-			<Container fluid style={{ position: "relative", padding: "0rem", }} >
+			<Container fluid style={{ maxWidth: "1600px", position: "relative", padding: "0rem", }} >
 				<Image className="header_img" src={SHukaturka} alt="SHukaturka!" style={{ marginTop: "-50px", width: "100%", padding: "0rem", }} />
 				<Col className="header" style={{ padding: "0rem 0.35rem", position: "absolute", top: "53%", left: "50%", transform: "translate(-50%, -50%)", width: "750px", }}>
 					<h1 className="header_title" style={{ padding: "0rem 0.5rem", fontSize: "60px", fontWeight: "700", }}>Мягкие окна под ключ <br />
@@ -29,4 +29,4 @@ function SoftWindows() {
 	);
 };
 
-export default SoftWindows;
+export default Soft_Windows;

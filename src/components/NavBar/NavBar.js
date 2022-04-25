@@ -29,7 +29,7 @@ function NavBar() {
 							<Nav.Link href="#Контакты">Контакты</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
-					<Button className="myButton" style={{ padding: "14px 20px", maxWidth: "200px", border: "1px solid #21b34a", color: "#21b24a", backgroundColor: "#363636", display: "flex", alignItems: "center", justifyContent: "center", }}>
+					<Button className="myButton" style={{ padding: "14px 20px", maxWidth: "204px", border: "1px solid #21b34a", color: "#21b24a", backgroundColor: "#363636", display: "flex", alignItems: "center", justifyContent: "center", }}>
 						<Icon style={{ paddingRight: "0.15rem", height: "20px", }} path={mdiPhone} />
 						<span>+7 (499) 277 23 26</span>
 					</Button>
