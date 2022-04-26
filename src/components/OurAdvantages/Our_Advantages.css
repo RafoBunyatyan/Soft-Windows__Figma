@@ -1,0 +1,19 @@
+.article_container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  text-align: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  max-width: 420px !important;
+  margin: 15px !important;
+}
+
+.article_Our_Advantages {
+  font-size: 18px !important;
+  text-align: center !important;
+  max-width: 293px !important;
+  margin: 0px auto 38px !important;
+}
+
+@media (max-width: 1200px) {
+}

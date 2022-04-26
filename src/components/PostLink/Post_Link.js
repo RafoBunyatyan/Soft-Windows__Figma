@@ -6,17 +6,21 @@ import { Button, Col, Row, Container, Image } from "react-bootstrap";
 function Post_Link() {
 	return (
 		<>
-			<Container className='' style={{ margin: '45px auto', maxWidth: '1600px', padding: '0', }}>
-				<Row style={{ display: 'flex', alignItems: 'center', margin: '10px auto', }}>
-					<Image className='aside_img' src={Rectangle} alt='Rectangle!' style={{ maxWidth: '1600px', height: '245px', }} />
-					<Col style={{ marginTop: '-200px', display: 'flex', alignItems: 'center', }}>
-						<Col style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', padding: '0', }}>
-							<h3 className='' style={{ fontSize: '35px', }}>Не можете определиться с выбором?</h3>
-							<p className='' style={{ fontSize: '18px', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
+			<Container fluid className='' style={{ maxWidth: '1600px', padding: '0', }}>
+				<Row className='' style={{ margin: '45px auto', }}>
+					<Image fluid className='article_image' src={Rectangle} alt='Rectangle!' style={{ height: '245px', padding: '0', }} />
+					<Col className='article_about' style={{ marginTop: '-245px', display: 'flex', }}>
+						<Col className='article_block' style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexFlow: 'column wrap', }}>
+							<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
+							<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
 						</Col>
-						<Col style={{}}>
-							<Button className='aside_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#fff', padding: '22px 86px', fontSize: "14px", }}>Ваш номер телефона</Button>
-							<Button className='aside_PostButton' style={{ border: "2px solid #21b24a", color: '#fff', backgroundColor: '#21B24A', padding: '22px 91px', fontSize: "14px", }}>Отправить заявку</Button>
+						<Col className='article_button' style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', alignContent: 'center', }}>
+							<Button className='article_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#fff', padding: '22px 86px', fontSize: "14px", }}>
+								Ваш номер телефона
+							</Button>
+							<Button className='article_PostButton' style={{ border: "2px solid #21b24a", color: '#fff', backgroundColor: '#21B24A', padding: '21px 83px', }}>
+								Отправить заявку
+							</Button>
 						</Col>
 					</Col>
 				</Row>

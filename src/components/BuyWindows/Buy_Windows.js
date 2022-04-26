@@ -10,7 +10,9 @@ function Buy_Windows() {
 			<Container fluid className="myContainer" style={{ maxWidth: '1600px', marginTop: "6rem", padding: '0', }}>
 				<Col className="myContainer_header" style={{ textAlign: "center", display: "flex", alignItems: "center", flexDirection: "column", flexWrap: "wrap", }}>
 					<h2 className="myContainer_title" style={{ fontSize: "40px", width: "100%", fontWeight: "700", maxWidth: "391px", }}>Купить мягкие окна</h2>
-					<p className="myContainer_text" style={{ margin: '0', fontSize: "18px", color: "#5b5b5b", width: "100%", maxWidth: "834px", }}>Мягкие окна ПВХ - это отличная альтернатива классическому остеклению. Простота монтажа, долговечность, недорогая стоимость мягких окон… У нас можно купить шторы из гибкого ПВХ недорого и без ущерба качеству.</p>
+					<p className="myContainer_text" style={{ margin: '0', fontSize: "18px", color: "#5b5b5b", width: "100%", maxWidth: "834px", }}>
+						Мягкие окна ПВХ - это отличная альтернатива классическому остеклению. Простота монтажа, долговечность, недорогая стоимость мягких окон… У нас можно купить шторы из гибкого ПВХ недорого и без ущерба качеству.
+					</p>
 				</Col>
 				<Row style={{ margin: '50px 0px 0px', }}>
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
@@ -37,7 +39,9 @@ function Buy_Windows() {
 								</Col>
 							</Col>
 						</Col>
-						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>Оформить заказ</Button>
+						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>
+							Оформить заказ
+						</Button>
 					</Col>
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="myContainer_title_sub" style={{ fontSize: "25px", color: "#151515", }}>Премиум</h4>
@@ -53,7 +57,9 @@ function Buy_Windows() {
 							<Col style={{ display: "flex", }}>
 								<Icon path={mdiCheck} style={{ height: "18px", margin: "0.4rem 0.5rem 0rem 0rem", }} />
 								<Col>
-									<p className="myContainer_text" style={{ margin: '0', fontSize: "18px", color: "#5b5b5b", }}>C0 Окантовка тканью ОКСФОРД Премиум или ПВХ (выбор из цветов по каталогу)</p>
+									<p className="myContainer_text" style={{ margin: '0', fontSize: "18px", color: "#5b5b5b", }}>
+										C0 Окантовка тканью ОКСФОРД Премиум или ПВХ (выбор из цветов по каталогу)
+									</p>
 								</Col>
 							</Col>
 							<Col style={{ display: "flex", }}>
@@ -63,7 +69,9 @@ function Buy_Windows() {
 								</Col>
 							</Col>
 						</Col>
-						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>Оформить заказ</Button>
+						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>
+							Оформить заказ
+						</Button>
 					</Col>
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="container_title_sub" style={{ fontSize: "25px", color: "#151515", }}>Под ключ</h4>
@@ -72,10 +80,14 @@ function Buy_Windows() {
 						<Col style={{ display: "flex", width: "100%", maxWidth: "297px", }}>
 							<Icon path={mdiCheck} style={{ height: "18px", margin: "0.4rem 0.5rem 0rem 0rem", }} />
 							<Col>
-								<span className="myContainer_text" style={{ fontSize: "18px", color: "#5b5b5b", }}>В комплектации «Стандарт» включая замер, доставку и монтаж при заказе более 20 м2 и установке в деревянное плоское основание</span>
+								<span className="myContainer_text" style={{ fontSize: "18px", color: "#5b5b5b", }}>
+									В комплектации «Стандарт» включая замер, доставку и монтаж при заказе более 20 м2 и установке в деревянное плоское основание
+								</span>
 							</Col>
 						</Col>
-						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>Оформить заказ</Button>
+						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>
+							Оформить заказ
+						</Button>
 					</Col>
 				</Row>
 			</Container>

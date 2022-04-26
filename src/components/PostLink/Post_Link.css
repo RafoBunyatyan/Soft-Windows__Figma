@@ -1,12 +1,75 @@
-.aside_numberButton:hover {
+.article_numberButton:hover {
   background-color: #21b24a !important;
   color: #f9f9f9 !important;
 }
 
-.aside_PostButton:hover {
+.article_PostButton:hover {
   background-color: #fff !important;
   color: #21b24a !important;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
+  .article_PostButton {
+    padding: 21px 90px !important;
+    margin-top: 0.5rem !important;
+  }
+  .article_button {
+    justify-content: center !important;
+  }
+  .article_title {
+    font-size: 27px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .article_title {
+    font-size: 25px !important;
+  }
+  .article_text {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .article_about {
+    flex-direction: column !important;
+  }
+  .article_block {
+    max-height: 80px !important;
+  }
+  .article_button {
+    flex-direction: column !important;
+  }
+  .article_PostButton {
+    padding: 16px 90px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .article_PostButton,
+  .article_numberButton {
+    padding: 15px 60px !important;
+  }
+  .article_image {
+    height: 260px !important;
+  }
+  .article_about {
+    margin-top: -260px !important;
+  }
+  .article_block {
+    max-height: 100% !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .article_button {
+    align-content: flex-start !important;
+  }
+  .article_title {
+    font-size: 23px !important;
+    margin: 0 !important;
+  }
+  .article_about {
+    padding-right: 0 !important;
+  }
 }

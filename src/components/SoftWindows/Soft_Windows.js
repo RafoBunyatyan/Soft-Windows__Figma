@@ -20,9 +20,13 @@ function Soft_Windows() {
 					</Col>
 					<Col className="header_about" style={{ fontSize: "18px", display: "flex", padding: "0.3rem 0rem", }}>
 						<Icon path={mdiCheck} style={{ height: "18px", marginTop: "0.4rem", }} />
-						<p style={{ paddingLeft: "0.5rem", marginBottom: "0", }}>Срок производства рассчитывается <br /> индивидуально для каждого заказчика</p>
+						<p style={{ paddingLeft: "0.5rem", marginBottom: "0", }}>
+							Срок производства рассчитывается <br />	индивидуально для каждого заказчика
+						</p>
 					</Col>
-					<Button className="header_button" style={{ width: "100%", maxWidth: "250px", border: "1px solid #21B24A", backgroundColor: "#21b24a", color: "#fff", padding: "21px 40px", marginTop: "2.5rem", }}>Рассчитать стоимость</Button>
+					<Button className="header_button" style={{ width: "100%", maxWidth: "250px", border: "1px solid #21B24A", backgroundColor: "#21b24a", color: "#fff", padding: "21px 40px", marginTop: "2.5rem", }}>
+						Рассчитать стоимость
+					</Button>
 				</Col>
 			</Container>
 		</>
