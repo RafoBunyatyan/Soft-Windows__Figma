@@ -1,0 +1,49 @@
+.section_subTitle:hover {
+  color: #21b24a !important;
+}
+
+.section_button:hover {
+  background-color: #21b24a !important;
+  color: #fff !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  max-width: 480px !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  height: 4px !important;
+  background-color: #21b24a !important;
+}
+
+@media (max-width: 1230px) {
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 270px !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .section_title {
+    font-size: 30px !important;
+  }
+  .section_subTitle {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 220px !important;
+  }
+  .section_subBlock_title,
+  .section_subBlock_text {
+    font-size: 18px !important;
+  }
+  .section_button {
+    padding: 16px 90px !important;
+  }
+}
+
+@media (max-width: 650px) {
+}

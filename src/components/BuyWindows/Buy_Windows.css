@@ -1,26 +1,15 @@
-.myContainer_button:hover {
-  background-color: #21b24a !important;
-  color: #f9f9f9 !important;
-}
-
+.myContainer_button:hover,
 .article_numberButton:hover {
   background-color: #21b24a !important;
   color: #f9f9f9 !important;
 }
 
 .article_PostButton:hover {
-  background-color: #fff !important;
+  background-color: #e5e5e5 !important;
   color: #21b24a !important;
 }
 
 @media (max-width: 1280px) {
-  .article_PostButton {
-    padding: 21px 90px !important;
-    margin-top: 0.5rem !important;
-  }
-}
-
-@media (max-width: 1200px) {
   .myContainer {
     margin-top: 4rem !important;
   }
@@ -30,16 +19,23 @@
   .myContainer_title {
     font-size: 31px !important;
   }
-  .myContainer_text {
-    font-size: 1rem !important;
-  }
   .myContainer_title_sub {
     font-size: 23px !important;
+  }
+  .myContainer_text {
+    font-size: 1rem !important;
   }
   .myContainer_button {
     margin-top: 25px !important;
     max-width: 290px !important;
     padding: 17px 10px !important;
+  }
+  .article_PostButton {
+    padding: 21px 90px !important;
+    margin-top: 0.5rem !important;
+  }
+  .article_aboutBlock {
+    margin-left: 1.8rem !important;
   }
 }
 
@@ -57,12 +53,15 @@
   .article_button {
     flex-direction: column !important;
   }
+  .article_aboutBlock {
+    margin-left: 0rem !important;
+  }
 }
 
 @media (max-width: 480px) {
-  .article_PostButton,
-  .article_numberButton {
-    padding: 14px 60px !important;
+  .article_title {
+    font-size: 23px !important;
+    margin: 0 !important;
   }
   .article_image {
     height: 260px !important;
@@ -71,11 +70,8 @@
     margin-top: -260px !important;
     padding-right: 0 !important;
   }
-}
-
-@media (max-width: 380px) {
-  .article_title {
-    font-size: 23px !important;
-    margin: 0 !important;
+  .article_PostButton,
+  .article_numberButton {
+    padding: 14px 60px !important;
   }
 }
