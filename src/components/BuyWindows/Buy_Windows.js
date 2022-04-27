@@ -1,6 +1,7 @@
 import React from "react";
 import "./Buy_Windows.css";
-import { Button, Container, Col, Row } from "react-bootstrap";
+import Rectangle from '../../assets/images/Rectangle_100.png';
+import { Button, Container, Col, Row, Image } from "react-bootstrap";
 import Icon, { Stack } from '@mdi/react';
 import { mdiCheck } from '@mdi/js';
 
@@ -88,6 +89,23 @@ function Buy_Windows() {
 						<Button className="myContainer_button" style={{ margin: '52px 0px 40px 0px', width: "100%", maxWidth: "340px", color: '#21B34A', border: '1px solid #21B34A', backgroundColor: '#fff', padding: '22px 10px', }}>
 							Оформить заказ
 						</Button>
+					</Col>
+				</Row>
+				<Row style={{ margin: '45px auto', }}>
+					<Image fluid className='article_image' src={Rectangle} alt='Rectangle!' style={{ height: '245px', padding: '0', }} />
+					<Col className='article_about' style={{ marginTop: '-245px', display: 'flex', }}>
+						<Col style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexFlow: 'column wrap', }}>
+							<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
+							<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
+						</Col>
+						<Col className='article_button' style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', alignContent: 'center', paddingLeft: '0.5rem', }}>
+							<Button className='article_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#fff', padding: '22px 86px', fontSize: "14px", }}>
+								Ваш номер телефона
+							</Button>
+							<Button className='article_PostButton' style={{ border: "2px solid #21b24a", color: '#fff', backgroundColor: '#21B24A', padding: '21px 83px', }}>
+								Отправить заявку
+							</Button>
+						</Col>
 					</Col>
 				</Row>
 			</Container>

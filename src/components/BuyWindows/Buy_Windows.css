@@ -3,6 +3,23 @@
   color: #f9f9f9 !important;
 }
 
+.article_numberButton:hover {
+  background-color: #21b24a !important;
+  color: #f9f9f9 !important;
+}
+
+.article_PostButton:hover {
+  background-color: #fff !important;
+  color: #21b24a !important;
+}
+
+@media (max-width: 1280px) {
+  .article_PostButton {
+    padding: 21px 90px !important;
+    margin-top: 0.5rem !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .myContainer {
     margin-top: 4rem !important;
@@ -23,5 +40,42 @@
     margin-top: 25px !important;
     max-width: 290px !important;
     padding: 17px 10px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .article_title {
+    font-size: 25px !important;
+  }
+  .article_text {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .article_about,
+  .article_button {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .article_PostButton,
+  .article_numberButton {
+    padding: 14px 60px !important;
+  }
+  .article_image {
+    height: 260px !important;
+  }
+  .article_about {
+    margin-top: -260px !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .article_title {
+    font-size: 23px !important;
+    margin: 0 !important;
   }
 }
