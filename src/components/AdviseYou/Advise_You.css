@@ -1,0 +1,47 @@
+.advise_button:hover {
+  color: #21b24a !important;
+  background-color: #e5e5e5 !important;
+}
+
+@media (max-width: 1100px) {
+  .advise_title {
+    font-size: 32px !important;
+    margin-bottom: 14px !important;
+  }
+  .advise_text {
+    font-size: 1rem !important;
+    margin-bottom: 15px !important;
+  }
+  .advise_button {
+    padding: 17px 90px !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .advise_imgWorker {
+    display: none !important;
+  }
+  .advise_imgRectangle {
+    height: 375px !important;
+  }
+  .advise_section {
+    margin-top: -375px !important;
+  }
+  .advise_button {
+    margin-top: 0px !important;
+  }
+  .advise_title,
+  .advise_text {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .advise_title {
+    font-size: 30px !important;
+  }
+  .advise_button {
+    padding: 17px 75px !important;
+  }
+}

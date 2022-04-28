@@ -17,7 +17,7 @@ function Buy_Windows() {
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="myContainer_title_sub" style={{ fontSize: "25px", color: "#151515", margin: "0", }}>Стандарт</h4>
 						<hr style={{ border: "2px solid #21b24a", width: "100%", maxWidth: "250px", margin: "0.8rem 0rem", }} />
-						<span style={{ fontSize: "30px", color: "#151515", margin: "0.5rem 0rem  1.2rem", }}>от 1 100 руб/м2</span>
+						<span style={{ fontSize: "28px", color: "#151515", margin: "0.5rem 0rem  1.2rem", }}>от 1 100 руб/м2</span>
 						<Col style={{ width: "100%", maxWidth: "300px", }}>
 							<Col style={{ display: "flex", }}>
 								<Icon path={mdiCheck} style={{ height: "18px", margin: "0.4rem 0.5rem 0rem 0rem", }} />
@@ -43,7 +43,7 @@ function Buy_Windows() {
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="myContainer_title_sub" style={{ fontSize: "25px", color: "#151515", }}>Премиум</h4>
 						<hr style={{ border: "2px solid #21b24a", width: "100%", maxWidth: "250px", margin: "0.8rem 0rem", }} />
-						<span style={{ fontSize: "30px", color: "#151515", margin: "0.5rem 0rem  1.2rem", }}>от 1 150 руб/м2</span>
+						<span style={{ fontSize: "28px", color: "#151515", margin: "0.5rem 0rem  1.2rem", }}>от 1 150 руб/м2</span>
 						<Col style={{ width: "100%", maxWidth: "320px", }}>
 							<Col style={{ display: "flex", }}>
 								<Icon path={mdiCheck} style={{ height: "18px", margin: "0.4rem 0.5rem 0rem 0rem", }} />
@@ -69,7 +69,7 @@ function Buy_Windows() {
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="container_title_sub" style={{ fontSize: "25px", color: "#151515", }}>Под ключ</h4>
 						<hr style={{ border: "2px solid #21b24a", width: "100%", maxWidth: "250px", margin: "0.8rem 0rem", }} />
-						<span style={{ fontSize: "30px", color: "#151515", margin: "0.5rem 0rem 1.2rem", }}>от 1 550 руб/м2</span>
+						<span style={{ fontSize: "28px", color: "#151515", margin: "0.5rem 0rem 1.2rem", }}>от 1 550 руб/м2</span>
 						<Col style={{ display: "flex", width: "100%", maxWidth: "297px", }}>
 							<Icon path={mdiCheck} style={{ height: "18px", margin: "0.4rem 0.5rem 0rem 0rem", }} />
 							<Col>
@@ -86,9 +86,9 @@ function Buy_Windows() {
 							<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
 							<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
 						</Col>
-						<Col className='article_button' style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', alignContent: 'center', }}>
+						<Col className='article_button' style={{ display: 'flex', flexWrap: 'wrap', alignContent: 'center', justifyContent: 'center', }}>
 							<Button className='article_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#e5e5e5', padding: '22px 86px', fontSize: "14px", }}>Ваш номер телефона</Button>
-							<Button className='article_PostButton' style={{ border: "2px solid #21b24a", color: '#fff', backgroundColor: '#21B24A', padding: '21px 83px', }}>Отправить заявку</Button>
+							<Button className='article_PostButton' style={{ border: "2px solid #21b24a", backgroundColor: '#21B24A', padding: '21px 83px', }}>Отправить заявку</Button>
 						</Col>
 					</Col>
 				</Row>

@@ -25,7 +25,7 @@
 
 @media (max-width: 1080px) {
   .section_title {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
   .section_subTitle {
     font-size: 18px !important;
@@ -46,4 +46,20 @@
 }
 
 @media (max-width: 650px) {
+  .css-1wf8b0h-MuiTabs-flexContainer {
+    flex-flow: row wrap !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .section_subTitle {
+    font-size: 16px !important;
+    padding: 0.5rem 0.3rem !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    max-width: 160px !important;
+  }
+  .section_button {
+    padding: 16px 75px !important;
+  }
 }

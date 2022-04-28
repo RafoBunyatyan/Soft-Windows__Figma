@@ -11,7 +11,7 @@ import { Col, Container, Row, Image } from "react-bootstrap";
 function Our_Advantages() {
 	return (
 		<>
-			<Container fluid className='' style={{ margin: '110px auto', padding: '0', }}>
+			<Container fluid className='' style={{ margin: '110px auto', padding: '0', maxWidth: '1600px', }}>
 				<Row className='' style={{ maxWidth: '1600px', margin: '0 auto', }}>
 					<h2 className='article_ourTitle' style={{ fontSize: '42px', color: '#463B3B', display: 'flex', color: 'rgb(70, 59, 59)', alignItems: 'center', flexDirection: 'column', marginBottom: '3.1rem', }}>
 						Наши преимущества
