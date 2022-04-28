@@ -7,8 +7,8 @@ import Rectangle from '../../assets/images/Rectangle_3.png';
 function Advise_You() {
 	return (
 		<>
-			<Container className='advise_container' style={{ margin: '100px auto', maxWidth: '1600px', }}>
-				<Row className='advise_about' style={{}}>
+			<Container className='advise_container' style={{ maxWidth: '1600px', }}>
+				<Row className='advise_about' style={{ margin: '100px auto', maxWidth: '1600px', }}>
 					<Image src={Rectangle} alt='Rectangle!' className='advise_imgRectangle' style={{ height: '661px', }} />
 					<Col className='advise_section' style={{ display: 'flex', justifyContent: 'space-around', marginTop: '-654px', }}>
 						<Col className='advise_block' style={{ maxWidth: '512px', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', flexDirection: 'column', }}>

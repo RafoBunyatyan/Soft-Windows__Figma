@@ -1,0 +1,12 @@
+._button:hover {
+  background-color: #e5e5e5 !important;
+  color: #21b24a !important;
+}
+
+.css-10d9dml-MuiTabs-indicator {
+  background-color: #21b24a !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected:hover {
+  color: #21b24a !important;
+}
