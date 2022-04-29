@@ -1,5 +1,9 @@
-._button:hover {
+.Where_Installed_button:focus {
   background-color: #e5e5e5 !important;
+  color: #21b24a !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected:focus {
   color: #21b24a !important;
 }
 
@@ -7,6 +11,18 @@
   background-color: #21b24a !important;
 }
 
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected:hover {
-  color: #21b24a !important;
+.css-10d9dml-MuiTabs-indicator {
+  left: 0 !important;
+  width: 3px !important;
+}
+
+.css-lfwcke-MuiTabs-flexContainer {
+  display: flex !important;
+  align-items: flex-start !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  margin-bottom: 37.5px !important;
+}
+
+@media (max-width: 1200px) {
 }

@@ -1,4 +1,4 @@
-.header_button:hover {
+.header_button:focus {
   background-color: #e5e5e5 !important;
   color: #21b24a !important;
 }
@@ -37,6 +37,7 @@
   }
   .header {
     max-width: 313px !important;
+    left: 52% !important;
   }
   .header_button {
     margin-left: auto !important;

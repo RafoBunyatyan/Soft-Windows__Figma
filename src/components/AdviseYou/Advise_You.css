@@ -1,4 +1,4 @@
-.advise_button:hover {
+.advise_button:focus {
   color: #21b24a !important;
   background-color: #e5e5e5 !important;
 }

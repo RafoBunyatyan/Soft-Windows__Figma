@@ -1,8 +1,8 @@
-.section_subTitle:hover {
+.section_subTitle:focus {
   color: #21b24a !important;
 }
 
-.section_button:hover {
+.section_button:focus {
   background-color: #21b24a !important;
   color: #fff !important;
 }

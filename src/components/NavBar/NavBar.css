@@ -25,7 +25,7 @@
   color: #21b24a !important;
 }
 
-.myButton:hover {
+.myButton:focus {
   background-color: #21b24a !important;
   color: #fff !important;
 }

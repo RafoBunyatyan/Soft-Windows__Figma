@@ -1,10 +1,10 @@
-.myContainer_button:hover,
-.article_numberButton:hover {
+.myContainer_button:focus,
+.article_numberButton:focus {
   background-color: #21b24a !important;
   color: #f9f9f9 !important;
 }
 
-.article_PostButton:hover {
+.article_PostButton:focus {
   background-color: #e5e5e5 !important;
   color: #21b24a !important;
 }
