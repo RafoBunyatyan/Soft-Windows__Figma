@@ -8,12 +8,12 @@ import { mdiCheck } from '@mdi/js';
 function Buy_Windows() {
 	return (
 		<>
-			<Container fluid className="myContainer" style={{ maxWidth: '1600px', marginTop: "6rem", padding: '0', }}>
-				<Col className="myContainer_header" style={{ textAlign: "center", display: "flex", alignItems: "center", flexDirection: "column", flexWrap: "wrap", }}>
+			<Container fluid className="myContainer" style={{ marginTop: "6rem", padding: '0', }}>
+				<Col className="myContainer_header" style={{ margin: '0 auto', maxWidth: '1600px', textAlign: "center", display: "flex", alignItems: "center", flexFlow: 'column wrap', }}>
 					<h2 className="myContainer_title" style={{ fontSize: "40px", width: "100%", fontWeight: "700", maxWidth: "391px", }}>Купить мягкие окна</h2>
 					<p className="myContainer_text" style={{ margin: '0', fontSize: "18px", color: "#5b5b5b", width: "100%", maxWidth: "834px", }}>Мягкие окна ПВХ - это отличная альтернатива классическому остеклению. Простота монтажа, долговечность, недорогая стоимость мягких окон… У нас можно купить шторы из гибкого ПВХ недорого и без ущерба качеству.</p>
 				</Col>
-				<Row style={{ margin: '50px 0px 0px', }}>
+				<Row style={{ margin: '50px auto 0px', maxWidth: '1600px', }}>
 					<Col lg={4} style={{ width: "100%", maxWidth: "420px", display: "flex", flexDirection: "column", margin: "40px auto", alignItems: "center", flexWrap: "wrap", }}>
 						<h4 className="myContainer_title_sub" style={{ fontSize: "25px", color: "#151515", margin: "0", }}>Стандарт</h4>
 						<hr style={{ border: "2px solid #21b24a", width: "100%", maxWidth: "250px", margin: "0.8rem 0rem", }} />
@@ -81,14 +81,17 @@ function Buy_Windows() {
 				</Row>
 				<Row style={{ margin: '45px auto', }}>
 					<Image fluid className='article_image' src={Rectangle} alt='Rectangle!' style={{ height: '245px', padding: '0', }} />
+
 					<Col className='article_about' style={{ marginTop: '-245px', display: 'flex', }}>
-						<Col className='article_aboutBlock' style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexFlow: 'column wrap', }}>
-							<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
-							<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
-						</Col>
-						<Col className='article_button' style={{ display: 'flex', flexWrap: 'wrap', alignContent: 'center', justifyContent: 'center', }}>
-							<Button className='article_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#e5e5e5', padding: '22px 86px', fontSize: "14px", }}>Ваш номер телефона</Button>
-							<Button className='article_PostButton' style={{ border: "2px solid #21b24a", backgroundColor: '#21B24A', padding: '21px 83px', }}>Отправить заявку</Button>
+						<Col className='article_about' style={{ margin: '0 auto', maxWidth: '1600px', display: 'flex', }} >
+							<Col className='article_aboutBlock' style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexFlow: 'column wrap', }}>
+								<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
+								<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>
+							</Col>
+							<Col className='article_button' style={{ display: 'flex', flexWrap: 'wrap', alignContent: 'center', justifyContent: 'center', }}>
+								<Button className='article_numberButton' style={{ border: "2px solid #21b24a", color: '#868484', backgroundColor: '#e5e5e5', padding: '22px 86px', fontSize: "14px", }}>Ваш номер телефона</Button>
+								<Button className='article_PostButton' style={{ border: "2px solid #21b24a", backgroundColor: '#21B24A', padding: '21px 83px', }}>Отправить заявку</Button>
+							</Col>
 						</Col>
 					</Col>
 				</Row>

@@ -7,10 +7,10 @@ import Rectangle from '../../assets/images/Rectangle_3.png';
 function Advise_You() {
 	return (
 		<>
-			<Container style={{ maxWidth: '1600px', margin: '100px auto 150px', }}>
+			<Container className='advise_container' style={{ width: '100%', maxWidth: '100%', margin: '100px auto 150px', }}>
 				<Row>
 					<Image src={Rectangle} alt='Rectangle!' className='advise_imgRectangle' style={{ height: '661px', }} />
-					<Col className='advise_section' style={{ display: 'flex', justifyContent: 'space-around', marginTop: '-654px', }}>
+					<Col className='advise_section' style={{ maxWidth: '1600px', margin: 'auto', display: 'flex', justifyContent: 'space-between', marginTop: '-654px', }}>
 						<Col style={{ maxWidth: '512px', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', flexDirection: 'column', }}>
 							<h2 className='advise_title' style={{ fontSize: '42px', marginBottom: '20px', }}>Не можете выбрать? Мы вам подскажем!</h2>
 							<p className='advise_text' style={{ fontSize: '18px', marginBottom: '25px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании.</p>

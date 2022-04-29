@@ -15,7 +15,7 @@ function Where_Installed() {
 
 	return (
 		<>
-			<Container className='Where_Installed_about' style={{ margin: '150px auto 150px', maxWidth: '1600px', }}>
+			<Container fluid className='Where_Installed_about' style={{ margin: '150px auto 150px', maxWidth: '1600px', }}>
 				<Row>
 					<h2 className='Where_Installed_title' style={{ fontSize: '42px', textAlign: 'center', }}>Куда устанавливаются мягкие окна</h2>
 					<Col className='Where_Installed_container' style={{ marginTop: '40px', display: 'flex', position: 'relative', }}>

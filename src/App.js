@@ -7,6 +7,7 @@ import Our_Advantages from "./components/OurAdvantages/Our_Advantages";
 import Cost_windows from "./components/CostWindows/Cost_windows";
 import Advise_You from "./components/AdviseYou/Advise_You";
 import Where_Installed from "./components/WhereInstalled/Where_Installed";
+import Window_Installation from "./components/WindowInstallation/Window_Installation";
 
 function App() {
 	return (
@@ -18,7 +19,7 @@ function App() {
 			<Cost_windows />
 			<Advise_You />
 			<Where_Installed />
-
+			<Window_Installation />
 		</>
 	);
 };

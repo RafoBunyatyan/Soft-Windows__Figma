@@ -8,7 +8,7 @@ import { mdiCheck } from '@mdi/js';
 function Soft_Windows() {
 	return (
 		<>
-			<Container fluid style={{ maxWidth: "1600px", position: "relative", padding: "0rem", }} >
+			<Container fluid style={{ position: "relative", padding: "0rem", }} >
 				<Image className="header_img" src={SHukaturka} alt="SHukaturka!" style={{ marginTop: "-50px", width: "100%", padding: "0rem", }} />
 				<Col className="header" style={{ padding: "0rem 0.35rem", position: "absolute", top: "53%", left: "38%", transform: "translate(-50%, -50%)", width: "750px", }}>
 					<h1 className="header_title" style={{ padding: "0rem 0.5rem", fontSize: "60px", fontWeight: "700", }}>Мягкие окна под ключ <br />

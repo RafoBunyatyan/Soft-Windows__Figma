@@ -16,7 +16,7 @@ function Our_Advantages() {
 					<h2 className='article_ourTitle' style={{ fontSize: '42px', color: '#463B3B', display: 'flex', color: 'rgb(70, 59, 59)', alignItems: 'center', flexDirection: 'column', marginBottom: '3.1rem', }}>
 						Наши преимущества
 					</h2>
-					<Col lg={12} style={{ display: 'flex', flexWrap: 'wrap', padding: '0', justifyContent: 'center', }}>
+					<Col lg={12} style={{ display: 'flex', flexWrap: 'wrap', padding: '0', justifyContent: 'center', justifyContent: 'space-between', }}>
 						<Col md={4} className='article_container'>
 							<Image fluid className='' src={Frame} alt='Frame!' style={{ margin: '38px 0px 20px', }} />
 							<h4 className='article_ourSub_Title' style={{ fontSize: '25px', marginBottom: '0.5rem', }}>Большой срок службы</h4>
@@ -33,7 +33,7 @@ function Our_Advantages() {
 							<p className='article_our' style={{ maxWidth: '294px', }}>Мы работаем 24/7, поэтому ваш заказ будет выполнен и смонтирован в кратчайшие сроки!</p>
 						</Col>
 					</Col>
-					<Col lg={12} style={{ display: 'flex', flexWrap: 'wrap', padding: '0', justifyContent: 'center', }}>
+					<Col lg={12} style={{ display: 'flex', flexWrap: 'wrap', padding: '0', justifyContent: 'center', justifyContent: 'space-between', }}>
 						<Col md={4} className='article_container'>
 							<Image fluid src={Frame3} alt='Frame3!' style={{ margin: '38px 0px 20px', }} />
 							<h4 className='article_ourSub_Title' style={{ fontSize: '25px', marginBottom: '0.5rem', }}>Лучшие пленки</h4>

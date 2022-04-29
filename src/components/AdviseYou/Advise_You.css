@@ -35,6 +35,9 @@
   .advise_text {
     margin-bottom: 10px !important;
   }
+  .advise_container {
+    margin: 90px auto 90px !important;
+  }
 }
 
 @media (max-width: 550px) {
