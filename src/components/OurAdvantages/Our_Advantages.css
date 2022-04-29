@@ -24,4 +24,7 @@
   .article_our {
     font-size: 1rem !important;
   }
+  .article_OurContainer {
+    margin: 90px auto !important;
+  }
 }

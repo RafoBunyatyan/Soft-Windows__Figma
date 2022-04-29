@@ -18,6 +18,7 @@ function App() {
 			<Cost_windows />
 			<Advise_You />
 			<Where_Installed />
+
 		</>
 	);
 };

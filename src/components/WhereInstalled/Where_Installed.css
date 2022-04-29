@@ -20,9 +20,106 @@
   display: flex !important;
   align-items: flex-start !important;
 }
+
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   margin-bottom: 37.5px !important;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
+  .Where_Installed_block_button {
+    left: 24% !important;
+  }
+}
+@media (max-width: 1270px) {
+  .Where_Installed_block_button {
+    max-width: 600px !important;
+    padding: 20px !important;
+    left: 18% !important;
+  }
+}
+@media (max-width: 1170px) {
+  .Where_Installed_img {
+    max-width: 700px !important;
+  }
+  .Where_Installed_block_button {
+    left: 22% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Where_Installed_block_button {
+    max-width: 440px !important;
+  }
+  .Where_Installed_img {
+    max-width: 600px !important;
+  }
+  .Where_Installed_title {
+    font-size: 34px !important;
+  }
+  .Where_Installed_tab {
+    font-size: 20px !important;
+  }
+  .Where_Installed_text {
+    font-size: 16px !important;
+    margin-bottom: 14px !important;
+  }
+  .Where_Installed_button {
+    padding: 17px 56px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .Where_Installed_block_button {
+    padding: 16px !important;
+    max-width: 400px !important;
+  }
+  .Where_Installed_img {
+    max-width: 500px !important;
+  }
+  .Where_Installed_tab {
+    font-size: 18px !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 730px) {
+  .Where_Installed_block_button {
+    padding: 10px 14px !important;
+  }
+  .Where_Installed_img {
+    max-width: 460px !important;
+  }
+  .Where_Installed_button {
+    padding: 17px 90px !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    margin-bottom: 26px !important;
+  }
+  .Where_Installed_title {
+    font-size: 30px !important;
+  }
+}
+
+@media (max-width: 660px) {
+  .Where_Installed_block_button {
+    position: static !important;
+  }
+  .Where_Installed_about {
+    margin: 90px auto 90px !important;
+  }
+  .Where_Installed_container {
+    align-content: center !important;
+    flex-direction: column !important;
+    margin-top: 24px !important;
+  }
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    margin-bottom: 0px !important;
+  }
+}
+@media (max-width: 480px) {
+  .Where_Installed_img {
+    max-width: 100% !important;
+  }
 }

@@ -15,7 +15,7 @@ function NavBar() {
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
-						<Nav style={{ width: "100%", maxWidth: " 822px", justifyContent: "space-between", margin: "0 auto", alignItems: "center", fontSize: "18px", }}>
+						<Nav style={{ width: "100%", maxWidth: "822px", justifyContent: "space-between", margin: "0 auto", alignItems: "center", fontSize: "18px", }}>
 							<NavDropdown title="Мягкие окна" id="collasible-nav-dropdown" style={{ lineHeight: "2.4rem", }}>
 								<NavDropdown.Item href="#action/3.1">Для беседок</NavDropdown.Item>
 								<NavDropdown.Item href="#action/3.2">Для террас</NavDropdown.Item>
