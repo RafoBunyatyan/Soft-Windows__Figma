@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 680px) {
-  .article_about,
+  .article_about_container,
   .article_button {
     flex-direction: column !important;
   }
@@ -64,10 +64,9 @@
     margin: 0 !important;
   }
   .article_image {
-    height: 260px !important;
+    height: 255px !important;
   }
   .article_about {
-    margin-top: -260px !important;
     padding-right: 0 !important;
   }
   .article_PostButton,

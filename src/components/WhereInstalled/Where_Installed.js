@@ -18,7 +18,7 @@ function Where_Installed() {
 			<Container fluid className='Where_Installed_about' style={{ margin: '150px auto 150px', maxWidth: '1600px', }}>
 				<Row>
 					<h2 className='Where_Installed_title' style={{ fontSize: '42px', textAlign: 'center', }}>Куда устанавливаются мягкие окна</h2>
-					<Col className='Where_Installed_container' style={{ marginTop: '40px', display: 'flex', position: 'relative', }}>
+					<Col className='Where_Installed_container' style={{ paddingLeft: '1.5rem', marginTop: '40px', display: 'flex', position: 'relative', }}>
 						<Box sx={{ flexGrow: 1, display: 'flex', marginRight: 'auto', maxWidth: '194px', }}>
 							<Tabs orientation="vertical" variant="scrollable" value={value} onChange={handleChange} aria-label="Vertical tabs example">
 								<Tab label="Для беседок" className='Where_Installed_tab' style={{ color: '#989898', fontSize: '23px', padding: '12px 5px 12px 18px', }} />

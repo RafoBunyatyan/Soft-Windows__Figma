@@ -81,9 +81,8 @@ function Buy_Windows() {
 				</Row>
 				<Row style={{ margin: '45px auto', }}>
 					<Image fluid className='article_image' src={Rectangle} alt='Rectangle!' style={{ height: '245px', padding: '0', }} />
-
 					<Col className='article_about' style={{ marginTop: '-245px', display: 'flex', }}>
-						<Col className='article_about' style={{ margin: '0 auto', maxWidth: '1600px', display: 'flex', }} >
+						<Col className='article_about_container' style={{ margin: '0 auto', maxWidth: '1600px', display: 'flex', }} >
 							<Col className='article_aboutBlock' style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexFlow: 'column wrap', }}>
 								<h3 className='article_title' style={{ fontSize: '33px', }}>Не можете определиться с выбором?</h3>
 								<p className='article_text' style={{ fontSize: '18px', marginBottom: '0.3rem', }}>Оставьте заявку и мы свяжемся с Вами в ближайшее время</p>

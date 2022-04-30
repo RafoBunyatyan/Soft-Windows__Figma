@@ -9,3 +9,31 @@
     max-width: 420px !important;
   }
 }
+
+@media (max-width: 850px) {
+  .Installation_img {
+    max-width: 340px !important;
+  }
+  .Installation_span {
+    margin-top: 0px !important;
+  }
+  .Installation_title {
+    font-size: 30px !important;
+  }
+  .Installation_text {
+    margin: 0rem !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .Installation_container {
+    flex-direction: column !important;
+  }
+  .Installation_img {
+    max-width: 100% !important;
+    padding: 1.5rem 0rem !important;
+  }
+  .Installation_parent {
+    padding-bottom: 1rem;
+  }
+}

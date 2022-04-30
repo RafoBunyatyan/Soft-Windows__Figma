@@ -20,6 +20,7 @@ function App() {
 			<Advise_You />
 			<Where_Installed />
 			<Window_Installation />
+
 		</>
 	);
 };
