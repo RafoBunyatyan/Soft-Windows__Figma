@@ -7,7 +7,7 @@ function Window_Installation() {
 	return (
 		<>
 			<Container fluid style={{ backgroundColor: '#31313F', }}>
-				<Row className='Installation_container' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
+				<Row className='Installation_container' style={{ margin: '0px auto 150px', maxWidth: '1600px', }}>
 					<Col>
 						<Image fluid src={Installation} alt='Installation!' className='Installation_img' style={{ padding: '94px 0px 99px 24px', }} />
 					</Col>

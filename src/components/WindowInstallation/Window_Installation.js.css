@@ -28,6 +28,7 @@
 @media (max-width: 750px) {
   .Installation_container {
     flex-direction: column !important;
+    margin: 0px auto 90px !important;
   }
   .Installation_img {
     max-width: 100% !important;

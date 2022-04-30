@@ -94,7 +94,7 @@
     max-width: 460px !important;
   }
   .Where_Installed_button {
-    padding: 17px 90px !important;
+    padding: 17px 82px !important;
   }
   .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
     margin-bottom: 26px !important;
@@ -124,5 +124,8 @@
 @media (max-width: 480px) {
   .Where_Installed_img {
     max-width: 100% !important;
+  }
+  .Where_Installed_block_button {
+    padding: 0px !important;
   }
 }
