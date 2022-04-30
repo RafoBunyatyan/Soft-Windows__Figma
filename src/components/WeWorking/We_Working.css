@@ -3,6 +3,15 @@
   background-color: #21b24a !important;
 }
 
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #414141 !important;
+}
+
 /* .Materials_title {
   font-size: 34px !important;
 }

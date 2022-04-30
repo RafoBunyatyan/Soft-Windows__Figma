@@ -1,22 +1,44 @@
 import React from "react";
 import './We_Working.css';
-import { Col, Container, Row, Image, Button, } from "react-bootstrap";
+import { Col, Container, Row, Button, Carousel, Image } from "react-bootstrap";
 import Unsplash from '../../assets/images/unsplash.png';
 
 function We_Working() {
 	return (
 		<>
-			<Container fluid className='We_Working_' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
-				<Row className='We_Working_' style={{}}>
-					<h2 className='We_Working_' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
-					<Col className='' style={{ textAlign: 'center', }}>
+			<Container fluid className='We_Working_container' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
+				<Row className='We_Working_about' style={{}}>
+					<h2 className='We_Working_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
+					<Col className='We_Working_block' style={{}}>
+						{/* <Col className='We_Working_block_' style={{}}>
 
-
-
-						{/* <Col className='' style={{ maxWidth: '910px', }}>
-							<Image src={Unsplash} alt='Unsplash!' className='' style={{}} />
+						</Col> fade */}
+						<Carousel style={{}}>
+							<Carousel.Item>
+								<Image src={Unsplash} alt="Unsplash!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+								<Carousel.Caption style={{ color: '#5B5B5B', maxWidth: '600px', }}>
+									<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+									<p className='We_Working_text' style={{ fontSize: '18px', maxwidth: '645px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+							{/* <Carousel.Item>
+								<Image src={Unsplash} alt="Unsplash!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+								<Carousel.Caption style={{ color: '#5B5B5B', }}>
+									<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+									<p className='We_Working_text' style={{ fontSize: '18px', maxwidth: '645px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+							<Carousel.Item>
+								<Image src={Unsplash} alt="Unsplash!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+								<Carousel.Caption style={{ color: '#5B5B5B', }}>
+									<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+									<p className='We_Working_text' style={{ fontSize: '18px', maxwidth: '645px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+								</Carousel.Caption>
+							</Carousel.Item> */}
+						</Carousel>
+						{/* <Col className='We_Working_block_button' style={{ textAlign: 'center', }}>
+							<Button className='We_Working_button' style={{ textAlign: 'center', color: '#21B24A', border: "2px solid #21B24A", padding: '21px 53px', backgroundColor: '#e5e5e5', }}>Оформить заказ</Button>
 						</Col> */}
-						<Button className='We_Working_button' style={{ maxWidth: '230px', color: '#21B24A', border: "2px solid #21B24A", padding: '21px 40px', backgroundColor: '#e5e5e5', }}>Оформить заказ</Button>
 					</Col>
 				</Row>
 			</Container>
