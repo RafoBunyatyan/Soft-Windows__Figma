@@ -6,6 +6,10 @@
   font-size: 20px !important;
 }
 
+.css-qivjh0-MuiStepLabel-label:hover {
+  color: #21b24a !important;
+}
+
 .css-ascpo7-MuiStepLabel-root {
   flex-direction: column !important;
 }
@@ -14,8 +18,33 @@
   color: #2f2f2f !important;
 }
 
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #21b24a !important;
+}
+
 .css-117w1su-MuiStepIcon-text {
-  color: #afafaf !important;
+  fill: #afafaf !important;
+}
+
+.css-117w1su-MuiStepIcon-text:hover {
+  fill: #fff !important;
+}
+
+.css-1bw0nnu-MuiStep-root {
+  padding: 0 !important;
+}
+
+.css-vnkopk-MuiStepLabel-iconContainer {
+  padding: 0 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  font-size: 4rem !important;
+}
+
+.css-mjpk2e-MuiButtonBase-root-MuiStepButton-root {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .css-ascpo7-MuiStepLabel-root:focus,
