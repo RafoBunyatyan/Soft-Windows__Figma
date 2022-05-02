@@ -64,8 +64,6 @@ function We_Working() {
 					<h2 className='We_Working_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
 
 
-
-
 					<Box sx={{ width: '100%', display: 'flex', alignContent: 'space-around', flexDirection: 'column', }}>
 						<Stepper nonLinear activeStep={activeStep} style={{ fontSize: '20px', }}>
 							{steps.map((label, index) => (

@@ -2,14 +2,6 @@
   border-top: 2px dashed #c4c4c4 !important;
 }
 
-.css-qivjh0-MuiStepLabel-label {
-  font-size: 20px !important;
-}
-
-.css-qivjh0-MuiStepLabel-label:hover {
-  color: #21b24a !important;
-}
-
 .css-ascpo7-MuiStepLabel-root {
   flex-direction: column !important;
 }
@@ -18,16 +10,16 @@
   color: #2f2f2f !important;
 }
 
-.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
-  color: #21b24a !important;
-}
-
 .css-117w1su-MuiStepIcon-text {
   fill: #afafaf !important;
 }
 
-.css-117w1su-MuiStepIcon-text:hover {
-  fill: #fff !important;
+.css-j5w0w9-MuiStepConnector-root {
+  margin: 0px -50px 20px !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #21b24a !important;
 }
 
 .css-1bw0nnu-MuiStep-root {
@@ -47,10 +39,27 @@
   padding: 0 !important;
 }
 
+.css-qivjh0-MuiStepLabel-label {
+  font-size: 18px !important;
+}
+
+.css-qivjh0-MuiStepLabel-label:hover {
+  color: #21b24a !important;
+}
+
 .css-ascpo7-MuiStepLabel-root:focus,
 .css-z7uhs0-MuiStepConnector-line:focus {
   color: #21b24a !important;
 }
+
+.css-117w1su-MuiStepIcon-text:hover {
+  fill: #fff !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #21b24a !important;
+}
+
 /*  */
 .carousel-indicators {
   display: none !important;

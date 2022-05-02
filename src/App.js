@@ -10,6 +10,7 @@ import Where_Installed from "./components/WhereInstalled/Where_Installed";
 import Window_Installation from "./components/WindowInstallation/Window_Installation";
 import What_Materials from "./components/WhatMaterials/What_Materials";
 import We_Working from "./components/WeWorking/We_Working";
+import Our_Work from "./components/OurWork/Our_Work";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 			<Window_Installation />
 			<What_Materials />
 			<We_Working />
+			<Our_Work />
 		</>
 	);
 };
