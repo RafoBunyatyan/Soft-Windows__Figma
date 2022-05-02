@@ -1,14 +1,40 @@
+.css-z7uhs0-MuiStepConnector-line {
+  border-top: 2px dashed #c4c4c4 !important;
+}
+
+.css-qivjh0-MuiStepLabel-label {
+  font-size: 20px !important;
+}
+
+.css-ascpo7-MuiStepLabel-root {
+  flex-direction: column !important;
+}
+
+.css-16ubnlw-MuiStepLabel-labelContainer {
+  color: #2f2f2f !important;
+}
+
+.css-117w1su-MuiStepIcon-text {
+  color: #afafaf !important;
+}
+
+.css-ascpo7-MuiStepLabel-root:focus,
+.css-z7uhs0-MuiStepConnector-line:focus {
+  color: #21b24a !important;
+}
+/*  */
 .carousel-indicators {
   display: none !important;
-}
-.carousel-caption {
-  text-align: start !important;
-  position: static !important;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
   width: 5% !important;
+}
+
+.carousel-caption {
+  text-align: start !important;
+  position: static !important;
 }
 
 .We_Working_button:focus {
