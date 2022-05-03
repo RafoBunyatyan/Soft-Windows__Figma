@@ -25,13 +25,13 @@ function We_Working() {
 		return Object.keys(completed).length;
 	};
 
-	// const isLastStep = () => {
-	// 	return activeStep === totalSteps() - 1;
-	// };
-
 	const allStepsCompleted = () => {
 		return completedSteps() === totalSteps();
 	};
+
+	// const isLastStep = () => {
+	// 	return activeStep === totalSteps() - 1;
+	// };
 
 	// const handleNext = () => {
 	// 	const newActiveStep =	isLastStep() && !allStepsCompleted()	?	steps.findIndex((step, i) => !(i in completed))	: activeStep + 1;
@@ -42,10 +42,6 @@ function We_Working() {
 	// 	setActiveStep((prevActiveStep) => prevActiveStep - 1);
 	// };
 
-	const handleStep = (step) => () => {
-		setActiveStep(step);
-	};
-
 	const handleComplete = () => {
 		const newCompleted = completed;
 		newCompleted[activeStep] = true;
@@ -53,33 +49,32 @@ function We_Working() {
 		// handleNext();
 	};
 
+	const handleStep = (step) => () => {
+		setActiveStep(step);
+	};
+
 	const handleReset = () => {
 		setActiveStep(0);
 		setCompleted({});
 	};
+
 	return (
 		<>
 			<Container fluid className='We_Working_container' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
 				<Row>
 					<h2 className='We_Working_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
-
-
 					<Box sx={{ width: '100%', display: 'flex', alignContent: 'space-around', flexDirection: 'column', }}>
-						<Stepper nonLinear activeStep={activeStep} style={{ fontSize: '20px', }}>
+						<Stepper nonLinear activeStep={activeStep} style={{ fontSize: '20px', justifyContent: 'center', }}>
 							{steps.map((label, index) => (
 								<Step key={label} completed={completed[index]}>
-									<StepButton color="inherit" onClick={handleStep(index)}>
-										{label}
-									</StepButton>
+									<StepButton color="inherit" onClick={handleStep(index)}>{label}</StepButton>
 								</Step>
 							))}
 						</Stepper>
 						<div>
 							{allStepsCompleted() ? (
 								<React.Fragment>
-									{/* <Typography sx={{ mt: 2, mb: 1 }}>
-										All steps completed - you&apos;re finished
-									</Typography> */}
+									{/* <Typography sx={{ mt: 2, mb: 1 }}>All steps completed - you&apos;re finished</Typography> */}
 									<Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
 										<Box sx={{ flex: '1 1 auto' }} />
 										<Button onClick={handleReset}>Reset</Button>
@@ -99,18 +94,13 @@ function We_Working() {
 												</Typography>
 											) : (
 												<Button onClick={handleComplete}>
-													{completedSteps() === totalSteps() - 1
-														? 'Finish'
-														: 'Complete Step'}
-												</Button>
+													{completedSteps() === totalSteps() - 1 ? 'Finish' : 'Complete Step'}</Button>
 											))}
 									</Box>
 								</React.Fragment>
 							)}
 						</div>
 					</Box>
-
-
 					<Carousel variant="dark">
 						<Carousel.Item>
 							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 80px', alignItems: 'center', justifyContent: 'space-between', }}>
