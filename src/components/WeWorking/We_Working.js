@@ -8,8 +8,8 @@ import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepButton from '@mui/material/StepButton';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 
 const steps = ['Оставляете заявку', 'Замер объекта', 'Производим', 'Доставка и монтаж', 'Результат'];
 

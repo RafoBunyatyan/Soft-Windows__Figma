@@ -1,9 +1,10 @@
 import React from 'react';
-import { Navbar, Container, Nav, NavDropdown, Button, Image } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown, Image, } from "react-bootstrap";
 import "./NavBar.css";
 import Logo_1 from "../../assets/images/ЛОГО 1.png";
 import Icon, { Stack } from '@mdi/react';
 import { mdiPhone } from '@mdi/js';
+import Button from '@mui/material/Button';
 
 function NavBar() {
 	return (
@@ -30,7 +31,7 @@ function NavBar() {
 						</Nav>
 					</Navbar.Collapse>
 					<Button className="myButton" style={{ padding: "14px 20px", maxWidth: "204px", border: "1px solid #21b34a", color: "#21b24a", backgroundColor: "#363636", display: "flex", alignItems: "center", justifyContent: "center", }}>
-						<Icon style={{ paddingRight: "0.15rem", height: "20px", }} path={mdiPhone} />
+						<Icon path={mdiPhone} style={{ paddingRight: "0.15rem", height: "20px", }} />
 						<span>+7 (499) 277 23 26</span>
 					</Button>
 				</Container>

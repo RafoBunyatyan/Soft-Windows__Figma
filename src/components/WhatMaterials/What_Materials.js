@@ -1,6 +1,6 @@
 import React from "react";
 import './What_Materials.css';
-import { Col, Container, Row, CardGroup, Card } from "react-bootstrap";
+import { Container, Row, CardGroup, Card, Col, } from "react-bootstrap";
 import Москитная_сетка from '../../assets/images/Москитная_сетка.png';
 import Карабин_89 from '../../assets/images/Карабин_89.png';
 import Карабин_90 from '../../assets/images/Карабин_90.png';

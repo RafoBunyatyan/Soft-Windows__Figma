@@ -1,10 +1,11 @@
 import React from "react";
 import './Where_Installed.css';
-import { Col, Container, Row, Button, Image } from "react-bootstrap";
+import { Col, Container, Row, Image, } from "react-bootstrap";
 import Rectangle from '../../assets/images/Rectangle_73.png';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 function Where_Installed() {
 	const [value, setValue] = React.useState(0);
@@ -31,7 +32,7 @@ function Where_Installed() {
 						<Image fluid src={Rectangle} alt="Rectangle!" className='Where_Installed_img' />
 						<Col className='Where_Installed_block_button' style={{ maxWidth: '756px', padding: '40px 30px', top: '32%', left: '32%', position: 'absolute', backgroundColor: '#e5e5e5', }}>
 							<p className='Where_Installed_text' style={{ marginBottom: '20px', fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
-							<Button className='Where_Installed_button' style={{ backgroundColor: '#21B24A', padding: '21px 56px', border: '1px solid #21B34A', }}>Подробнее</Button>
+							<Button className='Where_Installed_button' style={{ color: '#fff', backgroundColor: '#21B24A', padding: '21px 56px', border: '1px solid #21B34A', }}>Подробнее</Button>
 						</Col>
 					</Col>
 				</Row>

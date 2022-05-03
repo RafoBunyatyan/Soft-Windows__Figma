@@ -1,9 +1,10 @@
 import React from "react";
-import { Button, Col, Container, Image } from "react-bootstrap";
+import { Col, Container, Image, } from "react-bootstrap";
 import "./Soft_Windows.css";
 import SHukaturka from "../../assets/images/shukaturka-min 1.png";
 import Icon, { Stack } from '@mdi/react';
 import { mdiCheck } from '@mdi/js';
+import Button from '@mui/material/Button';
 
 function Soft_Windows() {
 	return (
@@ -20,13 +21,9 @@ function Soft_Windows() {
 					</Col>
 					<Col className="header_about" style={{ fontSize: "18px", display: "flex", padding: "0.3rem 0rem", }}>
 						<Icon path={mdiCheck} style={{ height: "18px", marginTop: "0.4rem", }} />
-						<p style={{ paddingLeft: "0.5rem", marginBottom: "0", }}>
-							Срок производства рассчитывается <br />	индивидуально для каждого заказчика
-						</p>
+						<p style={{ paddingLeft: "0.5rem", marginBottom: "0", }}>Срок производства рассчитывается <br />	индивидуально для каждого заказчика</p>
 					</Col>
-					<Button className="header_button" style={{ width: "100%", maxWidth: "250px", border: "1px solid #21B24A", backgroundColor: "#21b24a", color: "#fff", padding: "21px 40px", marginTop: "2.5rem", }}>
-						Рассчитать стоимость
-					</Button>
+					<Button className="header_button" style={{ border: "1px solid #21B24A", backgroundColor: "#21b24a", color: "#fff", padding: "21px 38px", marginTop: "2.5rem", }}>Рассчитать стоимость</Button>
 				</Col>
 			</Container>
 		</>

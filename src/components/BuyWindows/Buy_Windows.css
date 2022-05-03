@@ -31,7 +31,7 @@
     padding: 17px 10px !important;
   }
   .article_PostButton {
-    padding: 21px 90px !important;
+    padding: 21px 78px !important;
     margin-top: 0.5rem !important;
   }
   .article_aboutBlock {
@@ -71,6 +71,6 @@
   }
   .article_PostButton,
   .article_numberButton {
-    padding: 14px 60px !important;
+    padding: 15px 34px !important;
   }
 }

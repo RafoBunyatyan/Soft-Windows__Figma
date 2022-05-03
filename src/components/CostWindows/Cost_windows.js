@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import "./Cost_windows.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import "./Cost_Windows.css";
+import { Col, Container, Row, } from "react-bootstrap";
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import Button from '@mui/material/Button';
 
-function Cost_windows() {
+function Cost_Windows() {
 	const [value, setValue] = useState(0);
 
 	const handleChange = (event, newValue) => {
@@ -51,4 +52,4 @@ function Cost_windows() {
 	);
 };
 
-export default Cost_windows;
+export default Cost_Windows;
