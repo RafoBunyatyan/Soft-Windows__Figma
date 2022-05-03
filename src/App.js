@@ -11,6 +11,7 @@ import Window_Installation from "./components/WindowInstallation/Window_Installa
 import What_Materials from "./components/WhatMaterials/What_Materials";
 import We_Working from "./components/WeWorking/We_Working";
 import Our_Work from "./components/OurWork/Our_Work";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 			<What_Materials />
 			<We_Working />
 			<Our_Work />
+			<Reviews />
 
 		</>
 	);

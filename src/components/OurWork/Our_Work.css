@@ -1,0 +1,44 @@
+.Our_Work_subTitle:focus {
+  color: #21b24a !important;
+}
+
+@media (max-width: 1320px) {
+  .Our_Work_caption {
+    padding: 1.25rem 0rem !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .Our_Work_title {
+    font-size: 34px !important;
+  }
+  .Our_Work_setTitle,
+  .Our_Work_text {
+    padding-left: 1rem !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .Our_Work_title {
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  .Our_Work_container {
+    margin: 0px auto 90px !important;
+  }
+  .Our_Work_subTitle {
+    font-size: 20px !important;
+  }
+  .Our_Work_caption {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .Our_Work_setTitle {
+    font-size: 20px !important;
+  }
+  .Our_Work_img {
+    padding: 0rem 1rem !important;
+  }
+}

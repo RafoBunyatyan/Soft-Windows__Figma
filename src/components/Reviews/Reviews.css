@@ -1,0 +1,42 @@
+@media (max-width: 1100px) {
+  .Reviews_caption {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .Reviews__Vectop,
+  .Reviews__Vectop_1 {
+    margin-left: 1rem !important;
+  }
+  .Reviews_title {
+    font-size: 34px !important;
+  }
+  .Reviews_text {
+    font-size: 1rem !important;
+  }
+  .Reviews_SubTitle {
+    font-size: 20px !important;
+  }
+  .VectopSize {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .Reviews_container {
+    margin: 0px auto 90px !important;
+  }
+  .Reviews_title {
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  .VectopSize {
+    height: 25px !important;
+    width: 15px !important;
+  }
+  .Reviews_text {
+    margin: 18px auto 20px !important;
+  }
+  .carousel-inner {
+    margin-left: 1.5rem !important;
+  }
+}
