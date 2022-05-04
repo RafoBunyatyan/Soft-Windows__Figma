@@ -12,6 +12,8 @@ import What_Materials from "./components/WhatMaterials/What_Materials";
 import We_Working from "./components/WeWorking/We_Working";
 import Our_Work from "./components/OurWork/Our_Work";
 import Reviews from "./components/Reviews/Reviews";
+import O_PVC_Curtains from "./components/PVCCurtains/O_PVC_Curtains.js";
+import Discuss_Project from "./components/DiscussProject/Discuss_Project";
 
 function App() {
 	return (
@@ -28,6 +30,8 @@ function App() {
 			<We_Working />
 			<Our_Work />
 			<Reviews />
+			<O_PVC_Curtains />
+			<Discuss_Project />
 
 		</>
 	);
