@@ -27,6 +27,7 @@
   }
   .advise_section {
     margin-top: -375px !important;
+    justify-content: center !important;
   }
   .advise_button {
     margin-top: 0px !important;
