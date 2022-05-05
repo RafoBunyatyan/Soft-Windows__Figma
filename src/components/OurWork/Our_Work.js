@@ -30,7 +30,7 @@ function Our_Work() {
 						</Tabs>
 					</Box>
 					<Carousel variant="dark">
-						<Carousel.Item style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', }}>
+						<Carousel.Item style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', }}>
 							<Carousel.Caption className='Our_Work_caption' style={{ color: '#5B5B5B', paddingLeft: '2.2rem', }}>
 								<Col>
 									<Image src={Our_Work_0} alt="Our_Work_0!" style={{ width: '100%', }} />

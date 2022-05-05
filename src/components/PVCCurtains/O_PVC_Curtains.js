@@ -7,7 +7,7 @@ function O_PVC_Curtains() {
 		<>
 			<Container fluid style={{ maxWidth: '1600px', margin: '0 auto 150px', }}>
 				<Row>
-					<Col className='Curtains_about' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#5B5B5B', fontSize: '18px', }}>
+					<Col className='Curtains_about' style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-around', color: '#5B5B5B', fontSize: '18px', }}>
 						<Col className='Curtains_content' style={{ maxWidth: '645px', }}>
 							<p>Мягкие окна или как еще их называют Гибкие окна а также Жидкие окна, производятся из поливинилхлоридной пленки, совмещенной при помощи термосварки с тентовой ПВХ окантовкой,  которая обладает плотной структурой и отличными техническими характеристиками.</p>
 							<p>Они прекрасно заменяют остекление, для устройства прозрачного ограждения различных помещений: веранды, мансарды, беседки, террасы.</p>
