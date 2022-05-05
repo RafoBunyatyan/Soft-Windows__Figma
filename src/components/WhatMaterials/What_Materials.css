@@ -5,8 +5,8 @@
   .Materials_subTitle {
     font-size: 20px !important;
   }
-  .Materials_card {
-    align-content: center !important;
+  .Materials_CardGrup {
+    flex-direction: column !important;
   }
 }
 

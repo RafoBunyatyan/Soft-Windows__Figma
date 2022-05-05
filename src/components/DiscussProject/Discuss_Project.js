@@ -20,10 +20,10 @@ function Discuss_Project() {
 						</Col>
 						<Col className='Discuss_Project_block' style={{ margin: '50px', width: '100%', maxWidth: '470px', }}>
 							<Box component="form" sx={{ '& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off" className='Discuss_Project_box' style={{ display: 'flex', flexFlow: 'column wrap', alignItems: 'flex-start', alignContent: 'center', }}>
-								<TextField id="standard-basic" label="Имя" variant="standard" />
-								<TextField id="standard-basic" label="Электронная почта" variant="standard" />
-								<TextField id="standard-basic" label="Номер телефона" variant="standard" />
-								<TextField id="standard-basic" label="Пару слов о Вашем проекте" variant="standard" />
+								<TextField id="standard-basic" label="Имя" variant="standard" type="text" />
+								<TextField id="standard-basic" label="Электронная почта" variant="standard" type="email" />
+								<TextField id="standard-basic" label="Номер телефона" variant="standard" type="tel" />
+								<TextField id="standard-basic" label="Пару слов о Вашем проекте" variant="standard" type="text" />
 								<Box sx={{ display: 'flex' }}>
 									<FormControl required component="fieldset" sx={{ m: 3 }} variant="standard">
 										<FormControlLabel label="Я согласен(на) на обработку персональных данных" className='Discuss_Project_label' style={{ width: '400px', }} control={<Checkbox />} />
