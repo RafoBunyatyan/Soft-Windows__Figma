@@ -14,6 +14,7 @@ import Our_Work from "./components/OurWork/Our_Work";
 import Reviews from "./components/Reviews/Reviews";
 import O_PVC_Curtains from "./components/PVCCurtains/O_PVC_Curtains.js";
 import Discuss_Project from "./components/DiscussProject/Discuss_Project";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -32,7 +33,7 @@ function App() {
 			<Reviews />
 			<O_PVC_Curtains />
 			<Discuss_Project />
-
+			<Footer />
 		</>
 	);
 };

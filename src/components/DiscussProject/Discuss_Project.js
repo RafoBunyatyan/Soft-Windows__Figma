@@ -19,7 +19,7 @@ function Discuss_Project() {
 							<p className='Discuss_Project_text' style={{ fontSize: '18px', margin: '0', }}>Опишите Вашу задачу и отправьте нам заявку. Мы просчитаем бюджет, подберем инструменты и составим план работ по Вашему проекту и свяжемся с Вами в ближайшее время.</p>
 						</Col>
 						<Col className='Discuss_Project_block' style={{ margin: '50px', width: '100%', maxWidth: '470px', }}>
-							<Box component="form" sx={{ '& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off" style={{ display: 'flex', flexFlow: 'column wrap', alignItems: 'flex-start', alignContent: 'center', }}>
+							<Box component="form" sx={{ '& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off" className='Discuss_Project_box' style={{ display: 'flex', flexFlow: 'column wrap', alignItems: 'flex-start', alignContent: 'center', }}>
 								<TextField id="standard-basic" label="Имя" variant="standard" />
 								<TextField id="standard-basic" label="Электронная почта" variant="standard" />
 								<TextField id="standard-basic" label="Номер телефона" variant="standard" />

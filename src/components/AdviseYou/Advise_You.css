@@ -26,7 +26,7 @@
     height: 375px !important;
   }
   .advise_section {
-    margin-top: -375px !important;
+    margin: -375px auto 0px !important;
     justify-content: center !important;
   }
   .advise_button {

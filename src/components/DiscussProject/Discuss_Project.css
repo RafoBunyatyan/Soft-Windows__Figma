@@ -50,10 +50,26 @@ fieldset {
 @media (max-width: 850px) {
   .Discuss_Project_about {
     flex-direction: column !important;
-    align-items: flex-start !important;
+  }
+  .Discuss_Project_box {
     align-content: flex-start !important;
   }
   .Discuss_Project_button {
-    width: 305px !important;
+    width: 280px !important;
+  }
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:before,
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+    width: 380px !important;
+  }
+  .Discuss_Project_block {
+    margin: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:before,
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after,
+  .Discuss_Project_label {
+    width: 280px !important;
   }
 }
