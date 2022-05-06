@@ -11,14 +11,14 @@ function Reviews() {
 				<Row>
 					<h2 className='Reviews_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Отзывы</h2>
 					<Carousel variant="dark">
-						<Carousel.Item className='Reviews_about' style={{ display: 'flex', justifyContent: 'space-between', }}>
+						<Carousel.Item style={{ display: 'flex', justifyContent: 'space-between', }}>
 							<Carousel.Caption className='Reviews_caption' style={{ padding: '38px', marginLeft: '2rem', }}>
 								<Image src={Vector} alt='Vector!' className='Reviews__Vectop VectopSize' style={{ width: '18px', height: '31px', }}></Image>
 								<Image src={Vector} alt='Vector_1!' className='VectopSize' style={{ marginLeft: '1.75px', width: '18px', height: '31px', }}></Image>
 								<p className='Reviews_text' style={{ fontSize: '18px', maxWidth: '565px', color: '#5B5B5B', margin: '18px auto 30px', }}>В последний момент перед новым годом поняли, что в праздники в беседке делать нечего. Все завалило снегом и он не перестает идти. Вызвали бригаду по установке мягких окон и не прогадала. Большое спасибо за быструю и своевременную работу.</p>
 								<h3 className='Reviews_SubTitle' style={{ fontSize: '24px', }}>Нина Петровна</h3>
 							</Carousel.Caption>
-							<Carousel.Caption className='Reviews_caption' style={{ padding: '38px', marginLeft: '30px', marginRight: '1rem', }}>
+							<Carousel.Caption className='Reviews_caption Reviews_display' style={{ padding: '38px', marginLeft: '30px', marginRight: '1rem', }}>
 								<Image src={Vector} alt='Vector_2!' className='Reviews__Vectop_1 VectopSize' style={{ width: '18px', height: '31px', }}></Image>
 								<Image src={Vector} alt='Vector_3!' className='VectopSize' style={{ marginLeft: '1.75px', width: '18px', height: '31px', }}></Image>
 								<p className='Reviews_text' style={{ fontSize: '18px', maxWidth: '565px', color: '#5B5B5B', margin: '18px auto 30px', }}>В последний момент перед новым годом поняли, что в праздники в беседке делать нечего. Все завалило снегом и он не перестает идти. Вызвали бригаду по установке мягких окон и не прогадала. Большое спасибо за быструю и своевременную работу.</p>

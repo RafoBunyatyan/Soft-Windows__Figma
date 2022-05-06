@@ -22,8 +22,8 @@
 }
 
 @media (max-width: 900px) {
-  .Reviews_about {
-    flex-wrap: wrap !important;
+  .Reviews_display {
+    display: none !important;
   }
 }
 

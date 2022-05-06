@@ -14,7 +14,7 @@ function Discuss_Project() {
 			<Container fluid className='Discuss_Project_container' style={{ maxWidth: '1600px', margin: '0 auto 150px', }}>
 				<Row>
 					<Col className='Discuss_Project_about' style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-around', }}>
-						<Col style={{ maxWidth: '548px', }}>
+						<Col style={{ maxWidth: '548px', marginLeft: '1rem', }}>
 							<h2 className='Discuss_Project_title' style={{ fontSize: '42px', marginBottom: '50px', }}>Обсудим проект?</h2>
 							<p className='Discuss_Project_text' style={{ fontSize: '18px', margin: '0', }}>Опишите Вашу задачу и отправьте нам заявку. Мы просчитаем бюджет, подберем инструменты и составим план работ по Вашему проекту и свяжемся с Вами в ближайшее время.</p>
 						</Col>
