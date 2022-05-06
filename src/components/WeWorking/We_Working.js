@@ -103,7 +103,7 @@ function We_Working() {
 					</Box>
 					<Carousel variant="dark">
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 80px', alignItems: 'center', justifyContent: 'space-between', }}>
+							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
 								<Image src={Unsplash} alt="Unsplash!" className="We_Working_img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
 									<Col className='We_Working_Caption ' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
@@ -114,7 +114,7 @@ function We_Working() {
 							</Col>
 						</Carousel.Item>
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 80px', alignItems: 'center', justifyContent: 'space-between', }}>
+							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
 								<Image src={Товары_для} alt="Товары_для!" className="We_Working_img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
 									<Col className='We_Working_Caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
@@ -125,7 +125,7 @@ function We_Working() {
 							</Col>
 						</Carousel.Item>
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 80px', alignItems: 'center', justifyContent: 'space-between', }}>
+							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
 								<Image src={Товары_для_2} alt="Товары_для_2!" className="We_Working_img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
 									<Col className='We_Working_Caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>

@@ -36,7 +36,7 @@ function Footer() {
 								<a href='#' className='Footer_text'>Пн. - Пт. 11:00 - 19:00 Сб. - Вс. Выходной</a>
 							</Col>
 						</Col>
-						<hr style={{ marginTop: '40px', width: '100%', border: '1px solid rgba(255, 255, 255, 0.8)', }} />
+						<hr style={{ marginTop: '40px', width: '94%', border: '1px solid rgba(255, 255, 255, 0.8)', }} />
 						<p style={{ fontSize: '12px', textAlign: 'center', margin: '14px auto 22px', }}>© 2020 — Все права защищены.</p>
 					</Col>
 				</Row>

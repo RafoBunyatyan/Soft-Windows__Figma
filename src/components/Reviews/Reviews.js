@@ -11,7 +11,7 @@ function Reviews() {
 				<Row>
 					<h2 className='Reviews_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Отзывы</h2>
 					<Carousel variant="dark">
-						<Carousel.Item style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', }}>
+						<Carousel.Item className='Reviews_about' style={{ display: 'flex', justifyContent: 'space-between', }}>
 							<Carousel.Caption className='Reviews_caption' style={{ padding: '38px', marginLeft: '2rem', }}>
 								<Image src={Vector} alt='Vector!' className='Reviews__Vectop VectopSize' style={{ width: '18px', height: '31px', }}></Image>
 								<Image src={Vector} alt='Vector_1!' className='VectopSize' style={{ marginLeft: '1.75px', width: '18px', height: '31px', }}></Image>
