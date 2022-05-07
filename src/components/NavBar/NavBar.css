@@ -1,0 +1,43 @@
+:root {
+  --bs-dark-rgb: 54, 54, 54 !important;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 14.0436px 28.0873px rgb(154 170 207 / 15%) !important;
+  width: 300px !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:focus {
+  background-color: #21b24a !important;
+  height: 65px !important;
+  width: 160px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  color: #21b24a !important;
+}
+
+.myButton:focus {
+  background-color: #21b24a !important;
+  color: #fff !important;
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    width: 160px !important;
+  }
+  .myButton {
+    padding: 12px !important;
+  }
+  .navbar-brand {
+    margin-right: 0.2rem !important;
+  }
+}

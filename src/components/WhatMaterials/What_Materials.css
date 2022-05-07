@@ -1,0 +1,24 @@
+@media (max-width: 750px) {
+  .Materials_title {
+    font-size: 34px !important;
+  }
+  .Materials_subTitle {
+    font-size: 20px !important;
+  }
+  .Materials_CardGrup {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .Materials_container {
+    margin: 0px auto 90px !important;
+  }
+  .Materials_title {
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  .Materials_card {
+    margin: 0px !important;
+  }
+}

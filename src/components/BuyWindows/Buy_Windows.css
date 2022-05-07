@@ -1,0 +1,76 @@
+.myContainer_button:focus,
+.article_numberButton:focus {
+  background-color: #21b24a !important;
+  color: #f9f9f9 !important;
+}
+
+.article_PostButton:focus {
+  background-color: #e5e5e5 !important;
+  color: #21b24a !important;
+}
+
+@media (max-width: 1280px) {
+  .myContainer {
+    margin-top: 4rem !important;
+  }
+  .myContainer_header {
+    padding: 0rem 0.5rem !important;
+  }
+  .myContainer_title {
+    font-size: 30px !important;
+  }
+  .myContainer_title_sub {
+    font-size: 23px !important;
+  }
+  .myContainer_text {
+    font-size: 1rem !important;
+  }
+  .myContainer_button {
+    margin-top: 25px !important;
+    max-width: 290px !important;
+    padding: 17px 10px !important;
+  }
+  .article_PostButton {
+    padding: 21px 78px !important;
+    margin-top: 0.5rem !important;
+  }
+  .article_aboutBlock {
+    margin-left: 1.8rem !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .article_title {
+    font-size: 25px !important;
+  }
+  .article_text {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .article_about_container,
+  .article_button {
+    flex-direction: column !important;
+  }
+  .article_aboutBlock {
+    margin-left: 0rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .article_title {
+    font-size: 23px !important;
+    margin: 0 !important;
+  }
+  .article_image {
+    height: 255px !important;
+  }
+  .article_about {
+    padding-right: 0 !important;
+  }
+  .article_PostButton,
+  .article_numberButton {
+    padding: 15px 34px !important;
+  }
+}

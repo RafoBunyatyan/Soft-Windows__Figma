@@ -1,0 +1,30 @@
+.article_container {
+  display: flex !important;
+  flex-flow: column wrap !important;
+  align-items: center !important;
+  max-width: 420px !important;
+  margin: 15px !important;
+  text-align: center !important;
+}
+
+.article_our {
+  font-size: 18px !important;
+  text-align: center !important;
+  margin: 0px auto 34px !important;
+}
+
+@media (max-width: 600px) {
+  .article_ourTitle {
+    font-size: 30px !important;
+    margin-bottom: 2rem !important;
+  }
+  .article_ourSub_Title {
+    font-size: 26px !important;
+  }
+  .article_our {
+    font-size: 1rem !important;
+  }
+  .article_OurContainer {
+    margin: 90px auto !important;
+  }
+}
