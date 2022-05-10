@@ -1,51 +1,51 @@
-.advise_button:focus {
+.AdviseYou__button:focus {
   color: #21b24a !important;
   background-color: #e5e5e5 !important;
 }
 
 @media (max-width: 1100px) {
-  .advise_title {
+  .AdviseYou__title {
     font-size: 32px !important;
     margin-bottom: 14px !important;
   }
-  .advise_text {
+  .AdviseYou__text {
     font-size: 1rem !important;
     margin-bottom: 15px !important;
   }
-  .advise_button {
+  .AdviseYou__button {
     padding: 17px 90px !important;
     margin-top: 15px !important;
   }
 }
 
 @media (max-width: 900px) {
-  .advise_imgWorker {
-    display: none !important;
+  .AdviseYou__container {
+    margin: 90px auto 90px !important;
   }
-  .advise_imgRectangle {
+  .AdviseYou__image_rectangle {
     height: 375px !important;
   }
-  .advise_section {
+  .AdviseYou__section {
     margin: -375px auto 0px !important;
     justify-content: center !important;
   }
-  .advise_button {
-    margin-top: 0px !important;
-  }
-  .advise_title,
-  .advise_text {
+  .AdviseYou__title,
+  .AdviseYou__text {
     margin-bottom: 10px !important;
   }
-  .advise_container {
-    margin: 90px auto 90px !important;
+  .AdviseYou__button {
+    margin-top: 0px !important;
+  }
+  .AdviseYou__image_worker {
+    display: none !important;
   }
 }
 
 @media (max-width: 550px) {
-  .advise_title {
+  .AdviseYou__title {
     font-size: 30px !important;
   }
-  .advise_button {
+  .AdviseYou__button {
     padding: 17px 56px !important;
   }
 }

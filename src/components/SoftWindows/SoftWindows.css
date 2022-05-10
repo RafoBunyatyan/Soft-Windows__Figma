@@ -1,36 +1,40 @@
-.header_button:focus {
+.softWindows__button:focus {
   background-color: #e5e5e5 !important;
   color: #21b24a !important;
 }
 
 @media (max-width: 1200px) {
-  .header_title {
-    font-size: 48px !important;
-  }
-  .header {
+  .softWindows__body {
     width: 550px !important;
+  }
+  .softWindows__title {
+    font-size: 48px !important;
   }
 }
 
 @media (max-width: 1000px) {
-  .header_title {
+  .softWindows__body {
+    width: 350px !important;
+  }
+  .softWindows__title {
     font-size: 36px !important;
     line-height: 1 !important;
   }
-  .header {
-    width: 350px !important;
-  }
-  .header_about {
+  .softWindows__about {
     font-size: 16px !important;
   }
-  .header_button {
+  .softWindows__button {
     margin-top: 0.5rem !important;
     padding: 16px 40px !important;
   }
 }
 
 @media (max-width: 700px) {
-  .header_img {
+  .softWindows__body {
+    max-width: 313px !important;
+    left: 52% !important;
+  }
+  .softWindows__image {
     background: linear-gradient(
       90deg,
       #ffffff 42.19%,
@@ -39,11 +43,7 @@
     height: 380px !important;
     margin-top: -25px !important;
   }
-  .header {
-    max-width: 313px !important;
-    left: 51% !important;
-  }
-  .header_button {
+  .softWindows__button {
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex !important;

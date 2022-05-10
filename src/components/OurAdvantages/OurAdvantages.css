@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .ourAdvantages__container {
+    margin: 90px auto !important;
+  }
+  .ourAdvantages__title {
+    font-size: 30px !important;
+    margin-bottom: 2rem !important;
+  }
+  .ourAdvantages__subTitle {
+    font-size: 26px !important;
+  }
+  .ourAdvantages__text {
+    font-size: 1rem !important;
+  }
+}
