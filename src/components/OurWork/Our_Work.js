@@ -1,12 +1,13 @@
 import React from "react";
 import './Our_Work.css';
+import Our_Work_0 from '../../assets/images/Rectangle.png';
+import Our_Work_1 from '../../assets/images/Rectangle_1.png';
+import Our_Work_2 from '../../assets/images/Rectangle_2.png';
 import { Col, Container, Row, Carousel, Image, } from "react-bootstrap";
 import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Our_Work_0 from '../../assets/images/Rectangle.png';
-import Our_Work_1 from '../../assets/images/Rectangle_1.png';
-import Our_Work_2 from '../../assets/images/Rectangle_2.png';
+
 
 function Our_Work() {
 	const [value, setValue] = React.useState(0);
