@@ -8,7 +8,6 @@ import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
-
 function Our_Work() {
 	const [value, setValue] = React.useState(0);
 
