@@ -15,6 +15,7 @@ import AboutPVC_Curtains from "./PVCCurtains/AboutPVC_Curtains.js";
 import DiscussProject from "./DiscussProject/DiscussProject";
 import Footer from "./Footer/Footer";
 
+
 function SoftBox() {
 	return (
 		<>
