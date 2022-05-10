@@ -15,6 +15,7 @@ import AboutCurtains from "./AboutCurtains/AboutCurtains";
 import DiscussProject from "./DiscussProject/DiscussProject";
 import Footer from "./Footer/Footer";
 
+
 function SoftBox() {
 	return (
 		<>
