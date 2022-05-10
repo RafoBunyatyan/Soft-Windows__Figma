@@ -1,13 +1,3 @@
-.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before {
-  width: 470px !important;
-  border-color: #cecece !important;
-}
-
-.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
-  border-bottom: 2px solid #21b24a !important;
-  width: 470px !important;
-}
-
 .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
 .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
   color: #a5a5a5 !important;
@@ -15,11 +5,6 @@
 
 .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked,
 .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
-  color: #21b24a !important;
-}
-
-.Discuss_Project_button:focus {
-  background-color: #e5e5e5 !important;
   color: #21b24a !important;
 }
 
@@ -31,45 +16,60 @@ fieldset {
   font-size: 14px !important;
 }
 
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before {
+  width: 470px !important;
+  border-color: #cecece !important;
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 2px solid #21b24a !important;
+  width: 470px !important;
+}
+
+.discussProject__button:focus {
+  background-color: #e5e5e5 !important;
+  color: #21b24a !important;
+}
+
 @media (max-width: 950px) {
-  .Discuss_Project_container {
+  .discussProject__container {
     margin: 0 auto 90px !important;
   }
-  .Discuss_Project_title {
+  .discussProject__title {
     font-size: 30px !important;
     margin-bottom: 35px !important;
   }
-  .Discuss_Project_text {
+  .discussProject__text {
     font-size: 1rem !important;
   }
-  .Discuss_Project_block {
+  .discussProject__block {
     margin: 25px !important;
   }
 }
 
 @media (max-width: 850px) {
-  .Discuss_Project_about {
+  .discussProject__about {
     flex-direction: column !important;
   }
-  .Discuss_Project_box {
+  .discussProject__box {
     align-content: flex-start !important;
   }
-  .Discuss_Project_button {
+  .discussProject__button {
     width: 280px !important;
+  }
+  .discussProject__block {
+    margin: 10px !important;
   }
   .css-1ptx2yq-MuiInputBase-root-MuiInput-root:before,
   .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
     width: 380px !important;
-  }
-  .Discuss_Project_block {
-    margin: 10px !important;
   }
 }
 
 @media (max-width: 400px) {
   .css-1ptx2yq-MuiInputBase-root-MuiInput-root:before,
   .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after,
-  .Discuss_Project_label {
+  .discussProject__label {
     width: 280px !important;
   }
 }

@@ -1,18 +1,13 @@
-.Footer_text {
-  color: rgb(169, 169, 169) !important;
-  text-decoration: none !important;
-}
-
 @media (max-width: 800px) {
-  .Footer_text_block {
-    font-size: 1rem !important;
+  .footer__about {
+    flex-direction: column !important;
+    margin-top: 56px !important;
   }
-  .Footer_title {
+  .footer__title {
     font-size: 22px !important;
     margin-bottom: 20px !important;
   }
-  .Footer_about {
-    flex-direction: column !important;
-    margin-top: 56px !important;
+  .footer__text_block {
+    font-size: 1rem !important;
   }
 }

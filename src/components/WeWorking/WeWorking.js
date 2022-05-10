@@ -1,9 +1,9 @@
 import React from "react";
-import './We_Working.css';
-import { Col, Container, Row, Carousel, Image, } from "react-bootstrap";
+import './WeWorking.css';
 import Unsplash from '../../assets/images/unsplash.png';
 import Товары_для from '../../assets/images/Товары_для_дома.png';
 import Товары_для_2 from '../../assets/images/Товары_для_2.jpg';
+import { Col, Container, Row, Carousel, Image, } from "react-bootstrap";
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 
 const steps = ['Оставляете заявку', 'Замер объекта', 'Производим', 'Доставка и монтаж', 'Результат'];
 
-function We_Working() {
+function WeWorking() {
 	const [activeStep, setActiveStep] = React.useState(0);
 	const [completed, setCompleted] = React.useState({});
 
@@ -60,9 +60,9 @@ function We_Working() {
 
 	return (
 		<>
-			<Container fluid className='We_Working_container' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
+			<Container fluid className='weWorking__container' style={{ maxWidth: '1600px', margin: '0px auto 150px', }}>
 				<Row>
-					<h2 className='We_Working_title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
+					<h2 className='weWorking__title' style={{ fontSize: '42px', textAlign: 'center', marginBottom: '50px', }}>Как мы работаем</h2>
 					<Box sx={{ width: '100%', display: 'flex', alignContent: 'space-around', flexDirection: 'column', }}>
 						<Stepper nonLinear activeStep={activeStep} style={{ fontSize: '20px', justifyContent: 'center', }}>
 							{steps.map((label, index) => (
@@ -103,41 +103,41 @@ function We_Working() {
 					</Box>
 					<Carousel variant="dark">
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
-								<Image src={Unsplash} alt="Unsplash!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+							<Col className='weWorking__Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
+								<Image src={Unsplash} alt="Unsplash!" className="weWorking__img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
-									<Col className='We_Working_Caption ' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
-										<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
-										<p className='We_Working_text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+									<Col className='weWorking__caption ' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
+										<h3 className='weWorking__subTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+										<p className='weWorking__text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
 									</Col>
 								</Carousel.Caption>
 							</Col>
 						</Carousel.Item>
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
-								<Image src={Товары_для} alt="Товары_для!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+							<Col className='weWorking__Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
+								<Image src={Товары_для} alt="Товары_для!" className="weWorking__img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
-									<Col className='We_Working_Caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
-										<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
-										<p className='We_Working_text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+									<Col className='weWorking__caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
+										<h3 className='weWorking__subTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+										<p className='weWorking__text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
 									</Col>
 								</Carousel.Caption>
 							</Col>
 						</Carousel.Item>
 						<Carousel.Item>
-							<Col className='We_Working_Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
-								<Image src={Товары_для_2} alt="Товары_для_2!" className="We_Working_img" style={{ maxWidth: '420px', }} />
+							<Col className='weWorking__Item' style={{ display: 'flex', flexDirection: 'row-reverse', margin: 'auto 60px', alignItems: 'center', justifyContent: 'space-between', }}>
+								<Image src={Товары_для_2} alt="Товары_для_2!" className="weWorking__img" style={{ maxWidth: '420px', }} />
 								<Carousel.Caption style={{ color: '#5B5B5B', }}>
-									<Col className='We_Working_Caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
-										<h3 className='We_Working_setTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
-										<p className='We_Working_text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
+									<Col className='weWorking__caption' style={{ margin: '65px 30px 60px 60px', maxWidth: '640px', }}>
+										<h3 className='weWorking__subTitle' style={{ fontSize: '24px', }}>Замер объекта:</h3>
+										<p className='weWorking__text' style={{ fontSize: '18px', }}>Мы успешно работаем в этой сфере по сей день, благодаря наличию надежно устоявшегося принципа – производить тщательный отбор специалистов на любую должность в компании. Мы ручаемся за наших сотрудников, они выполняют работу в срок и должным образом.</p>
 									</Col>
 								</Carousel.Caption>
 							</Col>
 						</Carousel.Item>
 					</Carousel>
-					<Col className='We_Working_block_button' style={{ textAlign: 'center', marginTop: '50px', }}>
-						<Button className='We_Working_button' style={{ color: '#21B24A', border: "2px solid #21B24A", padding: '21px 65px', backgroundColor: '#e5e5e5', }}>Оформить заказ</Button>
+					<Col className='weWorking__block_button' style={{ textAlign: 'center', marginTop: '50px', }}>
+						<Button className='weWorking__button' style={{ color: '#21B24A', border: "2px solid #21B24A", padding: '21px 65px', backgroundColor: '#e5e5e5', }}>Оформить заказ</Button>
 					</Col>
 				</Row>
 			</Container>
@@ -145,4 +145,4 @@ function We_Working() {
 	);
 };
 
-export default We_Working;
+export default WeWorking;

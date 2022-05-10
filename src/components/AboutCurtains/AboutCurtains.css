@@ -1,17 +1,17 @@
 @media (max-width: 1000px) {
-  .Curtains_about {
+  .curtains_about {
     font-size: 16px !important;
   }
 }
 
 @media (max-width: 850px) {
-  .Curtains_about {
+  .curtains_about {
     flex-direction: column !important;
   }
-  .Curtains_item {
+  .curtains_item {
     display: none !important;
   }
-  .Curtains_container {
+  .curtains_container {
     margin: 0 auto 90px !important;
   }
 }

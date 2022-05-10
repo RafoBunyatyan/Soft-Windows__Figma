@@ -25,7 +25,7 @@
   color: #21b24a !important;
 }
 
-.myButton:focus {
+.navBar__button:focus {
   background-color: #21b24a !important;
   color: #fff !important;
 }
@@ -34,7 +34,7 @@
   .dropdown-menu {
     width: 160px !important;
   }
-  .myButton {
+  .navBar__button {
     padding: 12px !important;
   }
   .navbar-brand {

@@ -1,24 +1,24 @@
 @media (max-width: 750px) {
-  .Materials_title {
+  .whatMaterials__title {
     font-size: 34px !important;
   }
-  .Materials_subTitle {
-    font-size: 20px !important;
-  }
-  .Materials_CardGrup {
+  .whatMaterials__cardGrup {
     flex-direction: column !important;
+  }
+  .whatMaterials__subTitle {
+    font-size: 20px !important;
   }
 }
 
 @media (max-width: 575px) {
-  .Materials_container {
+  .whatMaterials__container {
     margin: 0px auto 90px !important;
   }
-  .Materials_title {
+  .whatMaterials__title {
     font-size: 30px !important;
     margin-bottom: 20px !important;
   }
-  .Materials_card {
+  .whatMaterials__card {
     margin: 0px !important;
   }
 }
