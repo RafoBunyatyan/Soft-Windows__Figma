@@ -1,20 +1,20 @@
 import React from "react";
-import './O_PVC_Curtains.css';
+import './AboutPVC_Curtains.css';
 import { Container, Col, Row, } from "react-bootstrap";
 
-function O_PVC_Curtains() {
+function AboutPVC_Curtains() {
 	return (
 		<>
 			<Container fluid style={{ maxWidth: '1600px', margin: '0 auto 150px', }}>
 				<Row>
-					<Col className='Curtains_about' style={{ display: 'flex', alignItems: 'center', margin: '0rem 1rem', justifyContent: 'space-around', color: '#5B5B5B', fontSize: '18px', }}>
-						<Col className='Curtains_content' style={{ maxWidth: '645px', }}>
+					<Col className='curtains_about' style={{ display: 'flex', alignItems: 'center', margin: '0rem 1rem', justifyContent: 'space-around', color: '#5B5B5B', fontSize: '18px', }}>
+						<Col className='curtains_content' style={{ maxWidth: '645px', }}>
 							<p>Мягкие окна или как еще их называют Гибкие окна а также Жидкие окна, производятся из поливинилхлоридной пленки, совмещенной при помощи термосварки с тентовой ПВХ окантовкой,  которая обладает плотной структурой и отличными техническими характеристиками.</p>
 							<p>Они прекрасно заменяют остекление, для устройства прозрачного ограждения различных помещений: веранды, мансарды, беседки, террасы.</p>
 							<p>Жидкие окна можно использовать круглый год. Благодаря Мягким окнам, создаются комфортные условия в беседке, в летнее время, когда идет дождь или дует ветер. А так же пленка поможет защитить конструкцию от снега в зимнее время.</p>
 							<p>Мы изготавливаем и устанавливаем мягкие окна (ПВХ шторы) любых размеров, учитывая все пожелания Заказчика относительно цветовых оттенков материала, их комбинирования и способа крепления.</p>
 						</Col>
-						<Col className='Curtains_item' style={{ maxWidth: '645px', marginLeft: '30px', }}>
+						<Col className='curtains_item' style={{ maxWidth: '645px', marginLeft: '30px', }}>
 							<p>Мягкие окна (ПВХ шторы) — это современный и практичный способ защиты беседок, веранд, летних террас, открытых павильонов от ненастной погоды, уличной пыли и назойливых насекомых.</p>
 							<p>Преимущества мягких окон:</p>
 							<ul>
@@ -36,4 +36,4 @@ function O_PVC_Curtains() {
 	);
 };
 
-export default O_PVC_Curtains;
+export default AboutPVC_Curtains;

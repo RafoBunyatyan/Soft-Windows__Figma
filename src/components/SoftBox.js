@@ -9,13 +9,13 @@ import WhereInstalled from "./WhereInstalled/WhereInstalled";
 import WindowInstallation from "./WindowInstallation/WindowInstallation";
 import WhatMaterials from "./WhatMaterials/WhatMaterials";
 import WeWorking from "./WeWorking/WeWorking";
-import Our_Work from "./OurWork/Our_Work";
+import OurWork from "./OurWork/OurWork";
 import Reviews from "./Reviews/Reviews";
-import O_PVC_Curtains from "./PVCCurtains/O_PVC_Curtains.js";
-import Discuss_Project from "./DiscussProject/Discuss_Project";
+import AboutPVC_Curtains from "./PVCCurtains/AboutPVC_Curtains.js";
+import DiscussProject from "./DiscussProject/DiscussProject";
 import Footer from "./Footer/Footer";
 
-function Soft_Box() {
+function SoftBox() {
 	return (
 		<>
 			<NavBar />
@@ -28,13 +28,13 @@ function Soft_Box() {
 			<WindowInstallation />
 			<WhatMaterials />
 			<WeWorking />
-			<Our_Work />
+			<OurWork />
 			<Reviews />
-			<O_PVC_Curtains />
-			<Discuss_Project />
+			<AboutPVC_Curtains />
+			<DiscussProject />
 			<Footer />
 		</>
 	);
 };
 
-export default Soft_Box;
+export default SoftBox;
